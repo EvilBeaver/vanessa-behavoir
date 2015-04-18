@@ -4,13 +4,13 @@
 {1,
 {4,34213be6-5289-40c8-8182-6fdeb1bd0f18,bd12d7e1-3183-4dda-b3be-b858768d5681,
 {0,
-{0,
+{1,
 {0,0,c9720ebf-bd93-487d-8c1b-0fffec6124a0},"VanessaBehavior",
-{1,"ru","Vanessa behavior"},""}
+{1,"ru","Vanessa behavior"},"",0,0}
 },263dc453-29bc-4f25-ba4a-0877aff79b5d,"",00000000-0000-0000-0000-000000000000},4,
 {2bcef0d1-0981-11d6-b9b8-0050bae0a95d,0},
 {3daea016-69b7-4ed4-9453-127911372fe6,0},
-{d5b0e5ed-256d-401c-9c36-f630cafd8a62,1,263dc453-29bc-4f25-ba4a-0877aff79b5d},
+{d5b0e5ed-256d-401c-9c36-f630cafd8a62,2,263dc453-29bc-4f25-ba4a-0877aff79b5d,b233d4c6-91ab-4956-a887-1e1e718e30de},
 {ec6bb5e5-b7a8-4d75-bec9-658107a699cf,0}
 }
 }

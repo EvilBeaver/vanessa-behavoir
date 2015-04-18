@@ -1,6 +1,10 @@
 ﻿263dc453-29bc-4f25-ba4a-0877aff79b5d-->und\263dc453-29bc-4f25-ba4a-0877aff79b5d
 263dc453-29bc-4f25-ba4a-0877aff79b5d.0-->Form\Форма
 9b9c07a8-4b84-42e7-b4ea-af3beb5a8f89-->und\9b9c07a8-4b84-42e7-b4ea-af3beb5a8f89
+b233d4c6-91ab-4956-a887-1e1e718e30de-->und\b233d4c6-91ab-4956-a887-1e1e718e30de
+b233d4c6-91ab-4956-a887-1e1e718e30de.0-->Form\УФФорма\Форма.txt
+b233d4c6-91ab-4956-a887-1e1e718e30de.0-->und\b233d4c6-91ab-4956-a887-1e1e718e30de.0
+b233d4c6-91ab-4956-a887-1e1e718e30de.0-->und\b233d4c6-91ab-4956-a887-1e1e718e30de.0
 c9720ebf-bd93-487d-8c1b-0fffec6124a0.0\info-->und\c9720ebf-bd93-487d-8c1b-0fffec6124a0.0\info
 c9720ebf-bd93-487d-8c1b-0fffec6124a0.0\text-->ObjectModule.txt
 copyinfo-->und\copyinfo
