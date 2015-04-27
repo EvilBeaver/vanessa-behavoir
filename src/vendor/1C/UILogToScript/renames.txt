@@ -1,0 +1,12 @@
+﻿3d6521de-8b49-435f-82be-99c0259cac79-->und\3d6521de-8b49-435f-82be-99c0259cac79
+4764695c-4f5a-46a9-a7ed-9184af250747.0\info-->und\4764695c-4f5a-46a9-a7ed-9184af250747.0\info
+4764695c-4f5a-46a9-a7ed-9184af250747.0\text-->ObjectModule.txt
+4764695c-4f5a-46a9-a7ed-9184af250747.1-->und\4764695c-4f5a-46a9-a7ed-9184af250747.1
+copyinfo-->und\copyinfo
+fcb561ba-3f35-4f69-a35a-a7ac31f2a58f-->und\fcb561ba-3f35-4f69-a35a-a7ac31f2a58f
+fcb561ba-3f35-4f69-a35a-a7ac31f2a58f.0-->E:\commons\Rep\vanessa-bdd\src\vendor\1C\UILogToScript\Form\DefaultForm\Форма.txt
+fcb561ba-3f35-4f69-a35a-a7ac31f2a58f.0-->und\fcb561ba-3f35-4f69-a35a-a7ac31f2a58f.0
+fcb561ba-3f35-4f69-a35a-a7ac31f2a58f.0-->und\fcb561ba-3f35-4f69-a35a-a7ac31f2a58f.0
+root-->und\root
+version-->und\version
+versions-->und\versions
