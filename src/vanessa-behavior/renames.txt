@@ -2,6 +2,10 @@
 6d8592ce-5985-4e40-b37e-7faae8291ab6.0\text-->ObjectModule.txt
 813effc7-9383-4845-a4fa-2f5481e5a12b-->und\813effc7-9383-4845-a4fa-2f5481e5a12b
 813effc7-9383-4845-a4fa-2f5481e5a12b.0-->Form\Форма
+8a6e31ea-f13c-4c95-8d5e-d9639f345b83-->und\8a6e31ea-f13c-4c95-8d5e-d9639f345b83
+8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0-->Form\УправляемаяФорма\Форма.txt
+8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0-->und\8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0
+8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0-->und\8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0
 copyinfo-->und\copyinfo
 db44ced5-cf29-41b9-a5c2-312fc6faf5fa-->und\db44ced5-cf29-41b9-a5c2-312fc6faf5fa
 root-->und\root
