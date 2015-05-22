@@ -1,0 +1,14 @@
+﻿4a06c602-8610-4630-bea6-9f5f13b9bbb9-->und\4a06c602-8610-4630-bea6-9f5f13b9bbb9
+4a06c602-8610-4630-bea6-9f5f13b9bbb9.0-->E:\commons\Rep\vanessa-bdd\src\tests\ManagedApplicationTests\ТестПереГенерацииEPFУправляемыеФормы\Макеты\EPF\EPF.txt
+4a06c602-8610-4630-bea6-9f5f13b9bbb9.0-->und\4a06c602-8610-4630-bea6-9f5f13b9bbb9.0
+727eda5f-558c-428b-86d2-3421c52f4c50.0\info-->und\727eda5f-558c-428b-86d2-3421c52f4c50.0\info
+727eda5f-558c-428b-86d2-3421c52f4c50.0\text-->ObjectModule.txt
+7a951b9d-98bb-4646-bbd1-1a9a5e233de3-->und\7a951b9d-98bb-4646-bbd1-1a9a5e233de3
+7a951b9d-98bb-4646-bbd1-1a9a5e233de3.0-->E:\commons\Rep\vanessa-bdd\src\tests\ManagedApplicationTests\ТестПереГенерацииEPFУправляемыеФормы\Form\Форма\Форма.txt
+7a951b9d-98bb-4646-bbd1-1a9a5e233de3.0-->und\7a951b9d-98bb-4646-bbd1-1a9a5e233de3.0
+7a951b9d-98bb-4646-bbd1-1a9a5e233de3.0-->und\7a951b9d-98bb-4646-bbd1-1a9a5e233de3.0
+copyinfo-->und\copyinfo
+f38c7465-2120-4aeb-87fc-1cd6a72e4559-->und\f38c7465-2120-4aeb-87fc-1cd6a72e4559
+root-->und\root
+version-->und\version
+versions-->und\versions
