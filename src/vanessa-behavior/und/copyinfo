@@ -1,5 +1,5 @@
 ﻿{4,
-{9,
+{10,
 {05bfb715-9288-4b87-adbb-dc394cfe21ad,05bfb715-9288-4b87-adbb-dc394cfe21ad,1,
 {ec6bb5e5-b7a8-4d75-bec9-658107a699cf,"DebugLog"}
 },
@@ -17,6 +17,9 @@
 },
 {6d8592ce-5985-4e40-b37e-7faae8291ab6,6d8592ce-5985-4e40-b37e-7faae8291ab6,1,
 {c3831ec8-d8d5-4f93-8a22-f9bfae07327f,"VanessaBehavior"}
+},
+{7b4cadc5-8c6d-4f4b-ab3c-44395275afe7,7b4cadc5-8c6d-4f4b-ab3c-44395275afe7,1,
+{ec6bb5e5-b7a8-4d75-bec9-658107a699cf,"текЗначениеОперации"}
 },
 {813effc7-9383-4845-a4fa-2f5481e5a12b,813effc7-9383-4845-a4fa-2f5481e5a12b,1,
 {d5b0e5ed-256d-401c-9c36-f630cafd8a62,"Форма"}
