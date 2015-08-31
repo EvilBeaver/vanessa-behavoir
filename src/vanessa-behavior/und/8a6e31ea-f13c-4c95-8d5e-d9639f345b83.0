@@ -1789,9 +1789,56 @@ UTAKRsEoGAWDAjAwAABZUBINDcAPLQAAAABJRU5ErkJggg==}
 {1},
 {0,8b899eb3-1e10-4554-932c-57d42703b615}
 },0,1,1,0,0,1,1,0,0,0,0,0,1,0,1,1,0,1,2,2,1,1,0,0,0,1,2,2,0,1,1,
-{0},
-{3,0,
-{0},"",-1,-1,1,0},
+{1,
+{17,5bdad865-f2c5-434b-8041-ba4aad3b6687}
+},
+{3,3,
+{0},"",-1,-1,0,
+{
+{#base64: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
+rkJggg==}
+},0},
 {3,4,
 {0}
 },
@@ -3082,9 +3129,10 @@ UTAKRsEoGAWDAjAwAABZUBINDcAPLQAAAABJRU5ErkJggg==}
 			НовСтр.Имя        = Элем.Имя;
 		ИначеЕсли Элем.Фича Тогда
 			//НовСтр            = ТекСтроки.Строки.Добавить();
-			НовСтр.Фича       = Истина;
-			НовСтр.ПолныйПуть = Элем.ПолныйПуть;
-			НовСтр.Имя        = Элем.Имя;
+			НовСтр.Фича        = Истина;
+			НовСтр.ТипКартинки = 1;
+			НовСтр.ПолныйПуть  = Элем.ПолныйПуть;
+			НовСтр.Имя         = Элем.Имя;
 		КонецЕсли;  
 		
 		//ТекДерево = НовСтр;
@@ -3478,7 +3526,7 @@ UTAKRsEoGAWDAjAwAABZUBINDcAPLQAAAABJRU5ErkJggg==}
 {2,
 {1},
 {0,8b899eb3-1e10-4554-932c-57d42703b615}
-},16,
+},17,
 {5,1,0,"Имя",
 {1,1,
 {"ru","Имя"}
@@ -3725,6 +3773,22 @@ UTAKRsEoGAWDAjAwAABZUBINDcAPLQAAAABJRU5ErkJggg==}
 },
 {"Pattern",
 {"B"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,17,0,"ТипКартинки",
+{1,1,
+{"ru","Тип картинки"}
+},
+{"Pattern",
+{"N",10,0,0}
 },
 {0,
 {0,
