@@ -1,9 +1,5 @@
 ﻿6d8592ce-5985-4e40-b37e-7faae8291ab6.0\info-->und\6d8592ce-5985-4e40-b37e-7faae8291ab6.0\info
 6d8592ce-5985-4e40-b37e-7faae8291ab6.0\text-->ObjectModule.txt
-7a3d8b55-4687-4af8-a2d9-32bb4c015e30-->und\7a3d8b55-4687-4af8-a2d9-32bb4c015e30
-7a3d8b55-4687-4af8-a2d9-32bb4c015e30.0-->Form\УправляемаяФормаOld\Форма.txt
-7a3d8b55-4687-4af8-a2d9-32bb4c015e30.0-->und\7a3d8b55-4687-4af8-a2d9-32bb4c015e30.0
-7a3d8b55-4687-4af8-a2d9-32bb4c015e30.0-->und\7a3d8b55-4687-4af8-a2d9-32bb4c015e30.0
 813effc7-9383-4845-a4fa-2f5481e5a12b-->und\813effc7-9383-4845-a4fa-2f5481e5a12b
 813effc7-9383-4845-a4fa-2f5481e5a12b.0-->Form\Форма
 8a6e31ea-f13c-4c95-8d5e-d9639f345b83-->und\8a6e31ea-f13c-4c95-8d5e-d9639f345b83
