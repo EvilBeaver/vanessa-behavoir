@@ -5114,23 +5114,27 @@ AAAAAElFTkSuQmCC}
 
 &НаКлиенте
 Процедура ОбработатьСтатусСценария(ИД)
-	//СтрокаСценария = МассивСценариевДляВыполнения[ИД].СтрокаДерева;
-	//СценарийВыполнен = Истина;
-	//Для каждого СтрШаг Из СтрокаСценария.Строки Цикл
-	//	Если СтрШаг.Статус <> ""Success"" Тогда
-	//		СценарийВыполнен = Ложь;
-	//		Статус = СтрШаг.Статус;
-	//		СтрокаСценария.ОписаниеОшибки = СтрШаг.ОписаниеОшибки;
-	//		Прервать;
-	//	КонецЕсли; 
-	//КонецЦикла;
-	//
-	//Если СценарийВыполнен Тогда
-	//	ЭлементыФормы.тпДеревоТестов.Свернуть(СтрокаСценария); 
-	//	СтрокаСценария.Статус = ""Success"";
-	//Иначе	
-	//	СтрокаСценария.Статус = Статус;
-	//КонецЕсли; 
+	ИДСтрокиСценария = МассивСценариевДляВыполнения[ИД].СтрокаДерева;
+	СтрокаСценария   = МассивСтрокДереваДанныеФормы[ИДСтрокиСценария];
+	
+	
+	СценарийВыполнен = Истина;
+	СтрокиСценария = СтрокаСценария.ПолучитьЭлементы();
+	Для каждого СтрШаг Из СтрокиСценария Цикл
+		Если СтрШаг.Статус <> ""Success"" Тогда
+			СценарийВыполнен = Ложь;
+			Статус = СтрШаг.Статус;
+			СтрокаСценария.ОписаниеОшибки = СтрШаг.ОписаниеОшибки;
+			Прервать;
+		КонецЕсли; 
+	КонецЦикла;
+	
+	Если СценарийВыполнен Тогда
+		//ЭлементыФормы.тпДеревоТестов.Свернуть(СтрокаСценария); 
+		СтрокаСценария.Статус = ""Success"";
+	Иначе	
+		СтрокаСценария.Статус = Статус;
+	КонецЕсли; 
 КонецПроцедуры
 
 
@@ -8000,7 +8004,7 @@ CTwvaXRlbT4NCgkJCQkJPC9pdGVtPg0KCQkJCTwvaXRlbT4NCgkJCTwvZmlsdGVy
 Pg0KCQkJPGFwcGVhcmFuY2U+DQoJCQkJPGRjc2NvcjppdGVtIHhzaTp0eXBlPSJT
 ZXR0aW5nc1BhcmFtZXRlclZhbHVlIj4NCgkJCQkJPGRjc2NvcjpwYXJhbWV0ZXI+
 0KbQstC10YLQpNC+0L3QsDwvZGNzY29yOnBhcmFtZXRlcj4NCgkJCQkJPGRjc2Nv
-cjp2YWx1ZSB4c2k6dHlwZT0idjh1aTpDb2xvciI+IzU0RkYwQjwvZGNzY29yOnZh
+cjp2YWx1ZSB4c2k6dHlwZT0idjh1aTpDb2xvciI+IzE1QjEwRTwvZGNzY29yOnZh
 bHVlPg0KCQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8L2FwcGVhcmFuY2U+DQoJCTwv
 aXRlbT4NCgkJPGl0ZW0+DQoJCQk8c2VsZWN0aW9uPg0KCQkJCTxpdGVtPg0KCQkJ
 CQk8ZmllbGQ+0JTQtdGA0LXQstC+0KLQtdGB0YLQvtCy0JjQvNGPPC9maWVsZD4N
