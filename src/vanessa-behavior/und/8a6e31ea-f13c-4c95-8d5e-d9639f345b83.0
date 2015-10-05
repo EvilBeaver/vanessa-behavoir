@@ -4565,7 +4565,7 @@ AAAAAElFTkSuQmCC}
 		Возврат;
 	КонецЕсли;	
 	
-	СтрЗапуска = ""StartFeaturePalyer;VBParams=H:\Commons\Temp\VBParams.json"";
+	//СтрЗапуска = ""StartFeaturePalyer;VBParams=H:\Commons\Temp\VBParams.json"";
 	
 	СтруктураПараметров = ПолучитьСтруктуруПараметров(СтрЗапуска);
 	StartFeaturePalyer = ПолучитьЗначениеПереданногоПараметра(СтруктураПараметров,""StartFeaturePalyer"");
@@ -4660,7 +4660,7 @@ AAAAAElFTkSuQmCC}
 				ВерсияПриложения = СисИнфо.ВерсияПриложения;
 				
 				
-				ЗнКаталогOutputAllureБазовый = ЗнКаталогOutputAllureБазовый + ""\"" + ВерсияПриложения + ""_OF"";
+				ЗнКаталогOutputAllureБазовый = ЗнКаталогOutputAllureБазовый + ""\"" + ВерсияПриложения + ""_UF"";
 				ФайлПроверкаСуществования = Новый Файл(ЗнКаталогOutputAllureБазовый);
 				Если НЕ ФайлПроверкаСуществования.Существует() Тогда
 					СоздатьКаталог(ЗнКаталогOutputAllureБазовый);
