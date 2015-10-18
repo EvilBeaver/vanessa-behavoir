@@ -1,0 +1,13 @@
+﻿0720a839-bac5-49cb-95f3-478ba68f9d87.0\info-->und\0720a839-bac5-49cb-95f3-478ba68f9d87.0\info
+0720a839-bac5-49cb-95f3-478ba68f9d87.0\text-->ObjectModule.txt
+0720a839-bac5-49cb-95f3-478ba68f9d87.1-->und\0720a839-bac5-49cb-95f3-478ba68f9d87.1
+a5e6d724-5e6c-4200-a3f5-94b4cb4ee6ab-->und\a5e6d724-5e6c-4200-a3f5-94b4cb4ee6ab
+b8b325ef-3a01-4500-953e-d2b96f284157-->und\b8b325ef-3a01-4500-953e-d2b96f284157
+b8b325ef-3a01-4500-953e-d2b96f284157.0-->C:\Commons\Rep\vanessa-behavoir\src\vendor\1C\UILogToScript\Form\DefaultForm\Форма.txt
+b8b325ef-3a01-4500-953e-d2b96f284157.0-->und\b8b325ef-3a01-4500-953e-d2b96f284157.0
+b8b325ef-3a01-4500-953e-d2b96f284157.0-->und\b8b325ef-3a01-4500-953e-d2b96f284157.0
+b8b325ef-3a01-4500-953e-d2b96f284157.1-->und\b8b325ef-3a01-4500-953e-d2b96f284157.1
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions

@@ -1,0 +1,14 @@
+﻿70e297e0-e8a2-43bf-8be1-62e408f610a1-->und\70e297e0-e8a2-43bf-8be1-62e408f610a1
+70e297e0-e8a2-43bf-8be1-62e408f610a1.0-->C:\Commons\Rep\vanessa-behavoir\src\features\Libraries\step_definitions\СозданиеFixtures\Form\Форма\Форма.txt
+70e297e0-e8a2-43bf-8be1-62e408f610a1.0-->und\70e297e0-e8a2-43bf-8be1-62e408f610a1.0
+70e297e0-e8a2-43bf-8be1-62e408f610a1.0-->und\70e297e0-e8a2-43bf-8be1-62e408f610a1.0
+79a499cc-1782-4a2f-abe7-61ea4d49fd5a-->und\79a499cc-1782-4a2f-abe7-61ea4d49fd5a
+8aa13ab8-188a-4f59-be4f-031aa5450c90.0\info-->und\8aa13ab8-188a-4f59-be4f-031aa5450c90.0\info
+8aa13ab8-188a-4f59-be4f-031aa5450c90.0\text-->ObjectModule.txt
+copyinfo-->und\copyinfo
+f0c8afc2-893a-40ea-a70a-5d0195182aa1-->und\f0c8afc2-893a-40ea-a70a-5d0195182aa1
+f0c8afc2-893a-40ea-a70a-5d0195182aa1.0-->C:\Commons\Rep\vanessa-behavoir\src\features\Libraries\step_definitions\СозданиеFixtures\Макеты\Макет.mxl
+f0c8afc2-893a-40ea-a70a-5d0195182aa1.0-->und\f0c8afc2-893a-40ea-a70a-5d0195182aa1.0
+root-->und\root
+version-->und\version
+versions-->und\versions
