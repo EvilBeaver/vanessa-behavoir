@@ -1,4 +1,8 @@
-﻿79a499cc-1782-4a2f-abe7-61ea4d49fd5a-->und\79a499cc-1782-4a2f-abe7-61ea4d49fd5a
+﻿18f1504e-e45c-4e5c-9048-7664584d9fda-->und\18f1504e-e45c-4e5c-9048-7664584d9fda
+18f1504e-e45c-4e5c-9048-7664584d9fda.0-->H:\Commons\vanessa-behavoir\src\features\Core\step_definitions\РаботаСDataTables\Form\Форма\Форма.txt
+18f1504e-e45c-4e5c-9048-7664584d9fda.0-->und\18f1504e-e45c-4e5c-9048-7664584d9fda.0
+18f1504e-e45c-4e5c-9048-7664584d9fda.0-->und\18f1504e-e45c-4e5c-9048-7664584d9fda.0
+79a499cc-1782-4a2f-abe7-61ea4d49fd5a-->und\79a499cc-1782-4a2f-abe7-61ea4d49fd5a
 8aa13ab8-188a-4f59-be4f-031aa5450c90.0\info-->und\8aa13ab8-188a-4f59-be4f-031aa5450c90.0\info
 8aa13ab8-188a-4f59-be4f-031aa5450c90.0\text-->ObjectModule.txt
 copyinfo-->und\copyinfo

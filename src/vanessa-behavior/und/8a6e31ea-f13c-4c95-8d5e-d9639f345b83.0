@@ -6878,10 +6878,18 @@ AAAAAElFTkSuQmCC}
 	
 	Команда = ""Обработка."" + ИмяПроцедуры + ""("";
 	
+	АргументТаблица = Неопределено;
+	
 	Если МассивАргументов <> Неопределено Тогда
 		Для Ккк = 0 По МассивАргументов.Количество()-1 Цикл
 			Элем = МассивАргументов[Ккк];
-			Команда = Команда + Элем;
+			Если ТипЗнч(Элем) = Тип(""Массив"") Тогда
+				АргументТаблица = Элем;
+				Команда = Команда + ""АргументТаблица"";
+			Иначе	
+				Команда = Команда + Элем;
+			КонецЕсли;	 
+			
 			Если Ккк < МассивАргументов.Количество()-1 Тогда
 				Команда = Команда + "","";
 			КонецЕсли;	 
@@ -7039,6 +7047,20 @@ AAAAAElFTkSuQmCC}
 	ТД.Записать(ИмяФайлаЛогаИнструкцииHTML,КодировкаТекста.UTF8);
 КонецПроцедуры
 
+
+&НаКлиенте
+Функция ПолучитьЗначениеДляПередачиВМетод(Значение,Тип)
+	Если Тип = ""Строка"" Тогда
+		Возврат """""""" + Значение + """""""";
+	ИначеЕсли Тип = ""Число"" Тогда
+		Возврат Значение;
+	ИначеЕсли Тип = ""Дата"" Тогда
+		Возврат ПреобразоватьКДатеСтроку(Значение);
+	Иначе
+		ВызватьИсключение ""Неизвестный Тип: "" + Тип + "" в ПолучитьЗначениеДляПередачиВМетод"";
+	КонецЕсли;	 
+КонецФункции
+
 &НаКлиенте
 Процедура ВыполнитьШаг()
 	Шаги = МассивСценариевДляВыполнения[ТекИД_СценарияВМассиве].Шаги;
@@ -7150,14 +7172,39 @@ AAAAAElFTkSuQmCC}
 	МассивПараметров = Новый Массив;
 	Для Каждого ЭлементМассива Из СписокАргументов Цикл
 		Элем = ЭлементМассива.Значение;
-		Если Элем.Тип = ""Строка"" Тогда
-			МассивПараметров.Добавить("""""""" + Элем.Значение + """""""");
-		ИначеЕсли Элем.Тип = ""Число"" Тогда
-			МассивПараметров.Добавить(Элем.Значение);
-		ИначеЕсли Элем.Тип = ""Дата"" Тогда
-			МассивПараметров.Добавить(ПреобразоватьКДатеСтроку(Элем.Значение));
-		КонецЕсли;	 
+		//Если Элем.Тип = ""Строка"" Тогда
+		//	МассивПараметров.Добавить("""""""" + Элем.Значение + """""""");
+		//ИначеЕсли Элем.Тип = ""Число"" Тогда
+		//	МассивПараметров.Добавить(Элем.Значение);
+		//ИначеЕсли Элем.Тип = ""Дата"" Тогда
+		//	МассивПараметров.Добавить(ПреобразоватьКДатеСтроку(Элем.Значение));
+		//КонецЕсли;	 
+		
+		МассивПараметров.Добавить(ПолучитьЗначениеДляПередачиВМетод(Элем.Значение,Элем.Тип));
 	КонецЦикла;
+	
+	
+	Если СтрокаШага.ШагСПараметрамиВТаблице = Истина Тогда
+		ПарамТаблица = Новый Массив;
+		
+		ПодчиненныеСтроки = СтрокаШага.ПолучитьЭлементы();
+		Для каждого СтрокиТаблицы Из ПодчиненныеСтроки Цикл
+			СтрокаПарамТаблица = Новый Структура;
+			
+			НомерКолонки = 0;
+			Для каждого Колонка Из СтрокиТаблицы.ПараметрыТаблицы Цикл
+				НомерКолонки       = НомерКолонки + 1;
+				СтруктураПараметра = Колонка.Значение;
+				Значение           = ПолучитьЗначениеДляПередачиВМетод(СтруктураПараметра.Значение,СтруктураПараметра.Тип);
+				Значение           = Вычислить(Значение);
+			
+				СтрокаПарамТаблица.Вставить(""Кол"" + НомерКолонки,Значение);
+			КонецЦикла;
+			
+			ПарамТаблица.Добавить(СтрокаПарамТаблица);
+		КонецЦикла;
+		МассивПараметров.Добавить(ПарамТаблица);
+	КонецЕсли;	 
 	
 	
 	СтрОшибка       = Неопределено;
@@ -8132,6 +8179,7 @@ AAAAAElFTkSuQmCC}
 			СтруктураШага = Новый Структура;
 			СтруктураШага.Вставить(""Имя"",СтрДеревоСтроки.Имя);
 			СтруктураШага.Вставить(""АдресСнипета"",СтрДеревоСтроки.АдресСнипета);
+			СтруктураШага.Вставить(""ШагСПараметрамиВТаблице"",СтрДеревоСтроки.ШагСПараметрамиВТаблице);
 			Шаги.Добавить(СтруктураШага);
 		КонецЕсли;	 
 		ДобавитьШагиВМассив(СтрДеревоСтроки.Строки,Шаги);
@@ -10099,7 +10147,7 @@ AAAAAElFTkSuQmCC}
 {2,
 {1},
 {0,8b899eb3-1e10-4554-932c-57d42703b615}
-},21,
+},23,
 {5,1,0,"Имя",
 {1,1,
 {"ru","Имя"}
@@ -10420,9 +10468,41 @@ AAAAAElFTkSuQmCC}
 {"B",1},0}
 },
 {0,0},0},
-{5,21,0,"ПараметрыШагаВВидеТаблицы",
+{5,21,0,"ШагСПараметрамиВТаблице",
 {1,1,
-{"ru","Параметры шага в виде таблицы"}
+{"ru","Шаг с параметрами в таблице"}
+},
+{"Pattern",
+{"B"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,22,0,"СтрокаПараметровШагаВВидеТаблицы",
+{1,1,
+{"ru","Строка параметров шага в виде таблицы"}
+},
+{"Pattern",
+{"B"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,23,0,"ПараметрыТаблицы",
+{1,1,
+{"ru","Параметры таблицы"}
 },
 {"Pattern"},
 {0,
@@ -10434,7 +10514,7 @@ AAAAAElFTkSuQmCC}
 {"B",1},0}
 },
 {0,0},0}
-},4,"Объект.ДеревоТестов.Статус","Объект.ДеревоТестов.Статус",
+},5,"Объект.ДеревоТестов.Статус","Объект.ДеревоТестов.Статус",
 {3,
 {1},
 {0,8b899eb3-1e10-4554-932c-57d42703b615},
@@ -10457,6 +10537,15 @@ AAAAAElFTkSuQmCC}
 {1},
 {0,8b899eb3-1e10-4554-932c-57d42703b615},
 {13,5bdad865-f2c5-434b-8041-ba4aad3b6687}
+},
+{2,
+{1},
+{0,8b899eb3-1e10-4554-932c-57d42703b615}
+},"Объект.ДеревоТестов.СтрокаПараметровШагаВВидеТаблицы","Объект.ДеревоТестов.СтрокаПараметровШагаВВидеТаблицы",
+{3,
+{1},
+{0,8b899eb3-1e10-4554-932c-57d42703b615},
+{22,5bdad865-f2c5-434b-8041-ba4aad3b6687}
 },
 {2,
 {1},
@@ -10570,36 +10659,45 @@ bHVlPg0KCQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8L2FwcGVhcmFuY2U+DQoJCTwv
 aXRlbT4NCgkJPGl0ZW0+DQoJCQk8c2VsZWN0aW9uPg0KCQkJCTxpdGVtPg0KCQkJ
 CQk8ZmllbGQ+0JTQtdGA0LXQstC+0KLQtdGB0YLQvtCy0JjQvNGPPC9maWVsZD4N
 CgkJCQk8L2l0ZW0+DQoJCQk8L3NlbGVjdGlvbj4NCgkJCTxmaWx0ZXI+DQoJCQkJ
-PGl0ZW0geHNpOnR5cGU9IkZpbHRlckl0ZW1Db21wYXJpc29uIj4NCgkJCQkJPGxl
-ZnQgeHNpOnR5cGU9ImRjc2NvcjpGaWVsZCI+0J7QsdGK0LXQutGCLtCU0LXRgNC1
-0LLQvtCi0LXRgdGC0L7Qsi7Qn9GA0LjQvNC10YA8L2xlZnQ+DQoJCQkJCTxjb21w
-YXJpc29uVHlwZT5FcXVhbDwvY29tcGFyaXNvblR5cGU+DQoJCQkJCTxyaWdodCB4
-c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJCQkJPC9pdGVtPg0K
-CQkJPC9maWx0ZXI+DQoJCQk8YXBwZWFyYW5jZT4NCgkJCQk8ZGNzY29yOml0ZW0g
-eHNpOnR5cGU9IlNldHRpbmdzUGFyYW1ldGVyVmFsdWUiPg0KCQkJCQk8ZGNzY29y
-OnBhcmFtZXRlcj7QqNGA0LjRhNGCPC9kY3Njb3I6cGFyYW1ldGVyPg0KCQkJCQk8
-ZGNzY29yOnZhbHVlIHhzaTp0eXBlPSJ2OHVpOkZvbnQiIHJlZj0ic3lzOkRlZmF1
-bHRHVUlGb250IiBmYWNlTmFtZT0iTHVjaWRhIENvbnNvbGUiIGtpbmQ9IldpbmRv
-d3NGb250Ii8+DQoJCQkJPC9kY3Njb3I6aXRlbT4NCgkJCTwvYXBwZWFyYW5jZT4N
-CgkJPC9pdGVtPg0KCQk8aXRlbT4NCgkJCTxzZWxlY3Rpb24+DQoJCQkJPGl0ZW0+
-DQoJCQkJCTxmaWVsZD7QlNC10YDQtdCy0L7QotC10YHRgtC+0LLQn9C+0LvQvdGL
-0LnQn9GD0YLRjDwvZmllbGQ+DQoJCQkJPC9pdGVtPg0KCQkJCTxpdGVtPg0KCQkJ
-CQk8ZmllbGQ+0JTQtdGA0LXQstC+0KLQtdGB0YLQvtCy0JDQtNGA0LXRgdCh0L3Q
-uNC/0LXRgtCwPC9maWVsZD4NCgkJCQk8L2l0ZW0+DQoJCQkJPGl0ZW0+DQoJCQkJ
-CTxmaWVsZD7QlNC10YDQtdCy0L7QotC10YHRgtC+0LLQodC90LjQv9C10YI8L2Zp
-ZWxkPg0KCQkJCTwvaXRlbT4NCgkJCTwvc2VsZWN0aW9uPg0KCQkJPGZpbHRlcj4N
-CgkJCQk8aXRlbSB4c2k6dHlwZT0iRmlsdGVySXRlbUNvbXBhcmlzb24iPg0KCQkJ
-CQk8bGVmdCB4c2k6dHlwZT0iZGNzY29yOkZpZWxkIj7QntCx0YrQtdC60YIu0JTQ
-tdGA0LXQstC+0KLQtdGB0YLQvtCyLtCt0YLQvtCn0YPQttC+0LnQodC90LjQv9C1
-0YI8L2xlZnQ+DQoJCQkJCTxjb21wYXJpc29uVHlwZT5FcXVhbDwvY29tcGFyaXNv
-blR5cGU+DQoJCQkJCTxyaWdodCB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwv
-cmlnaHQ+DQoJCQkJPC9pdGVtPg0KCQkJPC9maWx0ZXI+DQoJCQk8YXBwZWFyYW5j
-ZT4NCgkJCQk8ZGNzY29yOml0ZW0geHNpOnR5cGU9IlNldHRpbmdzUGFyYW1ldGVy
-VmFsdWUiPg0KCQkJCQk8ZGNzY29yOnBhcmFtZXRlcj7QptCy0LXRgtCk0L7QvdCw
-PC9kY3Njb3I6cGFyYW1ldGVyPg0KCQkJCQk8ZGNzY29yOnZhbHVlIHhzaTp0eXBl
-PSJ2OHVpOkNvbG9yIj4jRDlEN0NDPC9kY3Njb3I6dmFsdWU+DQoJCQkJPC9kY3Nj
-b3I6aXRlbT4NCgkJCTwvYXBwZWFyYW5jZT4NCgkJPC9pdGVtPg0KCTwvY29uZGl0
-aW9uYWxBcHBlYXJhbmNlPg0KPC9TZXR0aW5ncz4=}
+PGl0ZW0geHNpOnR5cGU9IkZpbHRlckl0ZW1Hcm91cCI+DQoJCQkJCTxncm91cFR5
+cGU+T3JHcm91cDwvZ3JvdXBUeXBlPg0KCQkJCQk8aXRlbSB4c2k6dHlwZT0iRmls
+dGVySXRlbUNvbXBhcmlzb24iPg0KCQkJCQkJPGxlZnQgeHNpOnR5cGU9ImRjc2Nv
+cjpGaWVsZCI+0J7QsdGK0LXQutGCLtCU0LXRgNC10LLQvtCi0LXRgdGC0L7Qsi7Q
+odGC0YDQvtC60LDQn9Cw0YDQsNC80LXRgtGA0L7QstCo0LDQs9Cw0JLQktC40LTQ
+tdCi0LDQsdC70LjRhtGLPC9sZWZ0Pg0KCQkJCQkJPGNvbXBhcmlzb25UeXBlPkVx
+dWFsPC9jb21wYXJpc29uVHlwZT4NCgkJCQkJCTxyaWdodCB4c2k6dHlwZT0ieHM6
+Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJCQkJCTwvaXRlbT4NCgkJCQkJPGl0ZW0g
+eHNpOnR5cGU9IkZpbHRlckl0ZW1Db21wYXJpc29uIj4NCgkJCQkJCTxsZWZ0IHhz
+aTp0eXBlPSJkY3Njb3I6RmllbGQiPtCe0LHRitC10LrRgi7QlNC10YDQtdCy0L7Q
+otC10YHRgtC+0LIu0J/RgNC40LzQtdGAPC9sZWZ0Pg0KCQkJCQkJPGNvbXBhcmlz
+b25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4NCgkJCQkJCTxyaWdodCB4c2k6
+dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJCQkJCTwvaXRlbT4NCgkJ
+CQk8L2l0ZW0+DQoJCQk8L2ZpbHRlcj4NCgkJCTxhcHBlYXJhbmNlPg0KCQkJCTxk
+Y3Njb3I6aXRlbSB4c2k6dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJ
+CQkJCTxkY3Njb3I6cGFyYW1ldGVyPtCo0YDQuNGE0YI8L2Rjc2NvcjpwYXJhbWV0
+ZXI+DQoJCQkJCTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InY4dWk6Rm9udCIgcmVm
+PSJzeXM6RGVmYXVsdEdVSUZvbnQiIGZhY2VOYW1lPSJMdWNpZGEgQ29uc29sZSIg
+aGVpZ2h0PSIxMCIga2luZD0iV2luZG93c0ZvbnQiLz4NCgkJCQk8L2Rjc2Nvcjpp
+dGVtPg0KCQkJPC9hcHBlYXJhbmNlPg0KCQk8L2l0ZW0+DQoJCTxpdGVtPg0KCQkJ
+PHNlbGVjdGlvbj4NCgkJCQk8aXRlbT4NCgkJCQkJPGZpZWxkPtCU0LXRgNC10LLQ
+vtCi0LXRgdGC0L7QstCf0L7Qu9C90YvQudCf0YPRgtGMPC9maWVsZD4NCgkJCQk8
+L2l0ZW0+DQoJCQkJPGl0ZW0+DQoJCQkJCTxmaWVsZD7QlNC10YDQtdCy0L7QotC1
+0YHRgtC+0LLQkNC00YDQtdGB0KHQvdC40L/QtdGC0LA8L2ZpZWxkPg0KCQkJCTwv
+aXRlbT4NCgkJCQk8aXRlbT4NCgkJCQkJPGZpZWxkPtCU0LXRgNC10LLQvtCi0LXR
+gdGC0L7QstCh0L3QuNC/0LXRgjwvZmllbGQ+DQoJCQkJPC9pdGVtPg0KCQkJPC9z
+ZWxlY3Rpb24+DQoJCQk8ZmlsdGVyPg0KCQkJCTxpdGVtIHhzaTp0eXBlPSJGaWx0
+ZXJJdGVtQ29tcGFyaXNvbiI+DQoJCQkJCTxsZWZ0IHhzaTp0eXBlPSJkY3Njb3I6
+RmllbGQiPtCe0LHRitC10LrRgi7QlNC10YDQtdCy0L7QotC10YHRgtC+0LIu0K3R
+gtC+0KfRg9C20L7QudCh0L3QuNC/0LXRgjwvbGVmdD4NCgkJCQkJPGNvbXBhcmlz
+b25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4NCgkJCQkJPHJpZ2h0IHhzaTp0
+eXBlPSJ4czpib29sZWFuIj50cnVlPC9yaWdodD4NCgkJCQk8L2l0ZW0+DQoJCQk8
+L2ZpbHRlcj4NCgkJCTxhcHBlYXJhbmNlPg0KCQkJCTxkY3Njb3I6aXRlbSB4c2k6
+dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQkJCTxkY3Njb3I6cGFy
+YW1ldGVyPtCm0LLQtdGC0KTQvtC90LA8L2Rjc2NvcjpwYXJhbWV0ZXI+DQoJCQkJ
+CTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InY4dWk6Q29sb3IiPiNEOUQ3Q0M8L2Rj
+c2Nvcjp2YWx1ZT4NCgkJCQk8L2Rjc2NvcjppdGVtPg0KCQkJPC9hcHBlYXJhbmNl
+Pg0KCQk8L2l0ZW0+DQoJPC9jb25kaXRpb25hbEFwcGVhcmFuY2U+DQo8L1NldHRp
+bmdzPg==}
 },
 {0,0},
 {0,11,
