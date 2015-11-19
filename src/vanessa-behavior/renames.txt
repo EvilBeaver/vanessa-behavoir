@@ -1,5 +1,6 @@
-﻿6d8592ce-5985-4e40-b37e-7faae8291ab6.0\info-->und\6d8592ce-5985-4e40-b37e-7faae8291ab6.0\info
-6d8592ce-5985-4e40-b37e-7faae8291ab6.0\text-->ObjectModule.txt
+﻿5c906d2e-8b05-11e5-b599-9cd21ef5a847-->und\5c906d2e-8b05-11e5-b599-9cd21ef5a847
+5c906d2e-8b05-11e5-b599-9cd21ef5a847.0-->Макеты\ОтчетТестирования.mxl
+5c906d2e-8b05-11e5-b599-9cd21ef5a847.0-->und\5c906d2e-8b05-11e5-b599-9cd21ef5a847.0
 813effc7-9383-4845-a4fa-2f5481e5a12b-->und\813effc7-9383-4845-a4fa-2f5481e5a12b
 813effc7-9383-4845-a4fa-2f5481e5a12b.0-->Form\Форма
 8a6e31ea-f13c-4c95-8d5e-d9639f345b83-->und\8a6e31ea-f13c-4c95-8d5e-d9639f345b83
