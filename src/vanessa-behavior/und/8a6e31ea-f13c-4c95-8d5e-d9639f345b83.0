@@ -11003,7 +11003,20 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 
 &НаКлиенте
 Процедура УстановитьПометкуВыполнятьСценарийСЭтогоШага(Команда)
-	// Вставить содержимое обработчика.
+	ТекущиеДанные = Элементы.ДеревоТестов.ТекущиеДанные;
+	Если ТекущиеДанные = Неопределено Тогда
+		Возврат;
+	КонецЕсли;	 
+	
+	Если ТекущиеДанные.Шаг <> Истина Тогда
+		Сообщить(""Это возможно только для шага."");
+		Возврат;
+	КонецЕсли;	
+	
+	
+	ТекущиеДанные.ВыполнятьСценарийСЭтогоШага = Истина;	
+	
+	Сообщить(""Пометка установлена!"");
 КонецПроцедуры
 
 
@@ -11702,7 +11715,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {"B",1},0}
 },
 {0,0},0}
-},5,"Объект.ДеревоТестов.Статус","Объект.ДеревоТестов.Статус",
+},6,"Объект.ДеревоТестов.Статус","Объект.ДеревоТестов.Статус",
 {3,
 {1},
 {0,8b899eb3-1e10-4554-932c-57d42703b615},
@@ -11743,6 +11756,15 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1},
 {0,8b899eb3-1e10-4554-932c-57d42703b615},
 {16,5bdad865-f2c5-434b-8041-ba4aad3b6687}
+},
+{2,
+{1},
+{0,8b899eb3-1e10-4554-932c-57d42703b615}
+},"Объект.ДеревоТестов.ВыполнятьСценарийСЭтогоШага","Объект.ДеревоТестов.ВыполнятьСценарийСЭтогоШага",
+{3,
+{1},
+{0,8b899eb3-1e10-4554-932c-57d42703b615},
+{25,5bdad865-f2c5-434b-8041-ba4aad3b6687}
 },
 {2,
 {1},
@@ -11884,8 +11906,22 @@ dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQkJCTxkY3Njb3I6cGFy
 YW1ldGVyPtCm0LLQtdGC0KTQvtC90LA8L2Rjc2NvcjpwYXJhbWV0ZXI+DQoJCQkJ
 CTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InY4dWk6Q29sb3IiPiNEOUQ3Q0M8L2Rj
 c2Nvcjp2YWx1ZT4NCgkJCQk8L2Rjc2NvcjppdGVtPg0KCQkJPC9hcHBlYXJhbmNl
-Pg0KCQk8L2l0ZW0+DQoJPC9jb25kaXRpb25hbEFwcGVhcmFuY2U+DQo8L1NldHRp
-bmdzPg==}
+Pg0KCQk8L2l0ZW0+DQoJCTxpdGVtPg0KCQkJPHNlbGVjdGlvbj4NCgkJCQk8aXRl
+bT4NCgkJCQkJPGZpZWxkPtCU0LXRgNC10LLQvtCi0LXRgdGC0L7QstCY0LzRjzwv
+ZmllbGQ+DQoJCQkJPC9pdGVtPg0KCQkJPC9zZWxlY3Rpb24+DQoJCQk8ZmlsdGVy
+Pg0KCQkJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtQ29tcGFyaXNvbiI+DQoJ
+CQkJCTxsZWZ0IHhzaTp0eXBlPSJkY3Njb3I6RmllbGQiPtCe0LHRitC10LrRgi7Q
+lNC10YDQtdCy0L7QotC10YHRgtC+0LIu0JLRi9C/0L7Qu9C90Y/RgtGM0KHRhtC1
+0L3QsNGA0LjQudCh0K3RgtC+0LPQvtCo0LDQs9CwPC9sZWZ0Pg0KCQkJCQk8Y29t
+cGFyaXNvblR5cGU+RXF1YWw8L2NvbXBhcmlzb25UeXBlPg0KCQkJCQk8cmlnaHQg
+eHNpOnR5cGU9InhzOmJvb2xlYW4iPnRydWU8L3JpZ2h0Pg0KCQkJCTwvaXRlbT4N
+CgkJCTwvZmlsdGVyPg0KCQkJPGFwcGVhcmFuY2U+DQoJCQkJPGRjc2NvcjppdGVt
+IHhzaTp0eXBlPSJTZXR0aW5nc1BhcmFtZXRlclZhbHVlIj4NCgkJCQkJPGRjc2Nv
+cjpwYXJhbWV0ZXI+0KbQstC10YLQpNC+0L3QsDwvZGNzY29yOnBhcmFtZXRlcj4N
+CgkJCQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjh1aTpDb2xvciI+I0MwQzBD
+MDwvZGNzY29yOnZhbHVlPg0KCQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8L2FwcGVh
+cmFuY2U+DQoJCTwvaXRlbT4NCgk8L2NvbmRpdGlvbmFsQXBwZWFyYW5jZT4NCjwv
+U2V0dGluZ3M+}
 },
 {0,0},
 {0,12,
