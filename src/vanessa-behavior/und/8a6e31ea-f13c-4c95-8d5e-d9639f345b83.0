@@ -5786,6 +5786,8 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 &НаКлиенте
 Перем ТаблицаОбработокДляОтладки;
 
+&НаКлиенте
+Перем СтрокаШагаСКоторогоНадоВыполнятьСценарий;
 
 
 
@@ -11013,7 +11015,13 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 		Возврат;
 	КонецЕсли;	
 	
+	Если СтрокаШагаСКоторогоНадоВыполнятьСценарий <> Неопределено Тогда
+		Если СтрокаШагаСКоторогоНадоВыполнятьСценарий.Шаг = Истина Тогда
+			СтрокаШагаСКоторогоНадоВыполнятьСценарий.ВыполнятьСценарийСЭтогоШага = Ложь;	
+		КонецЕсли;	 
+	КонецЕсли;	 
 	
+	СтрокаШагаСКоторогоНадоВыполнятьСценарий  = ТекущиеДанные;
 	ТекущиеДанные.ВыполнятьСценарийСЭтогоШага = Истина;	
 	
 	Сообщить(""Пометка установлена!"");
@@ -11918,8 +11926,8 @@ eHNpOnR5cGU9InhzOmJvb2xlYW4iPnRydWU8L3JpZ2h0Pg0KCQkJCTwvaXRlbT4N
 CgkJCTwvZmlsdGVyPg0KCQkJPGFwcGVhcmFuY2U+DQoJCQkJPGRjc2NvcjppdGVt
 IHhzaTp0eXBlPSJTZXR0aW5nc1BhcmFtZXRlclZhbHVlIj4NCgkJCQkJPGRjc2Nv
 cjpwYXJhbWV0ZXI+0KbQstC10YLQpNC+0L3QsDwvZGNzY29yOnBhcmFtZXRlcj4N
-CgkJCQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjh1aTpDb2xvciI+I0MwQzBD
-MDwvZGNzY29yOnZhbHVlPg0KCQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8L2FwcGVh
+CgkJCQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjh1aTpDb2xvciI+Izk5Q0NG
+RjwvZGNzY29yOnZhbHVlPg0KCQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8L2FwcGVh
 cmFuY2U+DQoJCTwvaXRlbT4NCgk8L2NvbmRpdGlvbmFsQXBwZWFyYW5jZT4NCjwv
 U2V0dGluZ3M+}
 },
