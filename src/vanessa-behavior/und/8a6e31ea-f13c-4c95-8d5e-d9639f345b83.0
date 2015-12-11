@@ -8153,6 +8153,8 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 			Шаги.Добавить(СтруктураШага);
 		ИначеЕсли СтрСтроки.ШагСценарий = Истина Тогда
 			ДобавитьШагиДляВыполненияСценария(Шаги,СтрСтроки.Строки,СтрокаДерева,СтрокаСценария)
+		ИначеЕсли СтрСтроки.Область = Истина Тогда
+			ДобавитьШагиДляВыполненияСценария(Шаги,СтрСтроки.Строки,СтрокаДерева,СтрокаСценария)
 		КонецЕсли;	 
 	КонецЦикла;
 КонецПроцедуры
@@ -11971,12 +11973,40 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 КонецПроцедуры
 
 &НаКлиенте
-Процедура РазвернутьДерево() Экспорт
-	ДеревоФормы = Объект.ДеревоТестов.ПолучитьЭлементы();
-	Для Каждого Строка Из ДеревоФормы Цикл
-		ИдентификаторСтроки=Строка.ПолучитьИдентификатор();
-		Элементы.ДеревоТестов.Развернуть(ИдентификаторСтроки, Истина);
+Процедура РазвернутьСтрокуДерева(Строка)
+	ИдентификаторСтроки=Строка.ПолучитьИдентификатор();
+	Если Строка.Область = Истина Тогда
+		Элементы.ДеревоТестов.Свернуть(ИдентификаторСтроки);
+		Возврат;
+	КонецЕсли;	 
+	
+	ИдентификаторСтроки=Строка.ПолучитьИдентификатор();
+	Элементы.ДеревоТестов.Развернуть(ИдентификаторСтроки);
+КонецПроцедуры
+
+&НаКлиенте
+Процедура РазвернутьСтрокиДерева(ДеревоФормыСтроки)
+	Для Каждого Строка Из ДеревоФормыСтроки Цикл
+		РазвернутьСтрокуДерева(Строка);
+		
+		Если Строка.Область = Истина Тогда
+			Продолжить;
+		КонецЕсли;	 
+		
+		ПодчиненныеСтроки = Строка.ПолучитьЭлементы();
+		Если ПодчиненныеСтроки.Количество() > 0 Тогда
+			РазвернутьСтрокиДерева(ПодчиненныеСтроки);
+		КонецЕсли;	 
+		
+		//ИдентификаторСтроки=Строка.ПолучитьИдентификатор();
+		//Элементы.ДеревоТестов.Развернуть(ИдентификаторСтроки, Истина);
 	КонецЦикла;
+КонецПроцедуры
+
+&НаКлиенте
+Процедура РазвернутьДерево() Экспорт
+	ДеревоФормыСтроки = Объект.ДеревоТестов.ПолучитьЭлементы();
+	РазвернутьСтрокиДерева(ДеревоФормыСтроки);
 КонецПроцедуры
 
 &НаСервере
@@ -13418,7 +13448,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {"B",1},0}
 },
 {0,0},0}
-},6,"Объект.ДеревоТестов.Статус","Объект.ДеревоТестов.Статус",
+},7,"Объект.ДеревоТестов.Статус","Объект.ДеревоТестов.Статус",
 {3,
 {1},
 {0,8b899eb3-1e10-4554-932c-57d42703b615},
@@ -13468,6 +13498,15 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1},
 {0,8b899eb3-1e10-4554-932c-57d42703b615},
 {25,5bdad865-f2c5-434b-8041-ba4aad3b6687}
+},
+{2,
+{1},
+{0,8b899eb3-1e10-4554-932c-57d42703b615}
+},"Объект.ДеревоТестов.Область","Объект.ДеревоТестов.Область",
+{3,
+{1},
+{0,8b899eb3-1e10-4554-932c-57d42703b615},
+{28,5bdad865-f2c5-434b-8041-ba4aad3b6687}
 },
 {2,
 {1},
@@ -13623,8 +13662,25 @@ IHhzaTp0eXBlPSJTZXR0aW5nc1BhcmFtZXRlclZhbHVlIj4NCgkJCQkJPGRjc2Nv
 cjpwYXJhbWV0ZXI+0KbQstC10YLQpNC+0L3QsDwvZGNzY29yOnBhcmFtZXRlcj4N
 CgkJCQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjh1aTpDb2xvciI+Izk5Q0NG
 RjwvZGNzY29yOnZhbHVlPg0KCQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8L2FwcGVh
-cmFuY2U+DQoJCTwvaXRlbT4NCgk8L2NvbmRpdGlvbmFsQXBwZWFyYW5jZT4NCjwv
-U2V0dGluZ3M+}
+cmFuY2U+DQoJCTwvaXRlbT4NCgkJPGl0ZW0+DQoJCQk8c2VsZWN0aW9uPg0KCQkJ
+CTxpdGVtPg0KCQkJCQk8ZmllbGQ+0JTQtdGA0LXQstC+0KLQtdGB0YLQvtCy0JjQ
+vNGPPC9maWVsZD4NCgkJCQk8L2l0ZW0+DQoJCQk8L3NlbGVjdGlvbj4NCgkJCTxm
+aWx0ZXI+DQoJCQkJPGl0ZW0geHNpOnR5cGU9IkZpbHRlckl0ZW1Hcm91cCI+DQoJ
+CQkJCTxncm91cFR5cGU+T3JHcm91cDwvZ3JvdXBUeXBlPg0KCQkJCQk8aXRlbSB4
+c2k6dHlwZT0iRmlsdGVySXRlbUNvbXBhcmlzb24iPg0KCQkJCQkJPGxlZnQgeHNp
+OnR5cGU9ImRjc2NvcjpGaWVsZCI+0J7QsdGK0LXQutGCLtCU0LXRgNC10LLQvtCi
+0LXRgdGC0L7Qsi7QntCx0LvQsNGB0YLRjDwvbGVmdD4NCgkJCQkJCTxjb21wYXJp
+c29uVHlwZT5FcXVhbDwvY29tcGFyaXNvblR5cGU+DQoJCQkJCQk8cmlnaHQgeHNp
+OnR5cGU9InhzOmJvb2xlYW4iPnRydWU8L3JpZ2h0Pg0KCQkJCQk8L2l0ZW0+DQoJ
+CQkJPC9pdGVtPg0KCQkJPC9maWx0ZXI+DQoJCQk8YXBwZWFyYW5jZT4NCgkJCQk8
+ZGNzY29yOml0ZW0geHNpOnR5cGU9IlNldHRpbmdzUGFyYW1ldGVyVmFsdWUiPg0K
+CQkJCQk8ZGNzY29yOnBhcmFtZXRlcj7QqNGA0LjRhNGCPC9kY3Njb3I6cGFyYW1l
+dGVyPg0KCQkJCQk8ZGNzY29yOnZhbHVlIHhzaTp0eXBlPSJ2OHVpOkZvbnQiIHJl
+Zj0ic3lzOkRlZmF1bHRHVUlGb250IiBmYWNlTmFtZT0iVGltZXMgTmV3IFJvbWFu
+IiBoZWlnaHQ9IjEyIiBib2xkPSJmYWxzZSIgaXRhbGljPSJ0cnVlIiB1bmRlcmxp
+bmU9ImZhbHNlIiBzdHJpa2VvdXQ9ImZhbHNlIiBraW5kPSJXaW5kb3dzRm9udCIv
+Pg0KCQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8L2FwcGVhcmFuY2U+DQoJCTwvaXRl
+bT4NCgk8L2NvbmRpdGlvbmFsQXBwZWFyYW5jZT4NCjwvU2V0dGluZ3M+}
 },
 {0,0},
 {0,17,
