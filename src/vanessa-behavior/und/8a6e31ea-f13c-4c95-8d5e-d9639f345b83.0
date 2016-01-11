@@ -7093,12 +7093,12 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 		Возврат;
 	КонецЕсли;  
 	
-	//СтрЗапуска = ""StartFeaturePalyer;VBParams=H:\Commons\Temp\VBParams.json"";
+	//СтрЗапуска = ""StartFeaturePlayer;VBParams=H:\Commons\Temp\VBParams.json"";
 	СтрЗапуска = СокрЛП(ПараметрЗапуска);
 	Если СтрЗапуска <> """" Тогда
 		СтруктураПараметров = ПолучитьСтруктуруПараметров(СтрЗапуска);
-		StartFeaturePalyer = ПолучитьЗначениеПереданногоПараметра(СтруктураПараметров,""StartFeaturePalyer"");
-		Если StartFeaturePalyer = Истина Тогда
+		StartFeaturePlayer = ПолучитьЗначениеПереданногоПараметра(СтруктураПараметров,""StartFeaturePlayer"");
+		Если StartFeaturePlayer = Истина Тогда
 			//значит мы в режиме ЗапускВРежимеКоманднойСтроки
 			Возврат;
 		КонецЕсли;	
@@ -8381,7 +8381,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 &НаКлиенте
 Функция СоздатьСтруктуруПараметровЗапуска()
 	Рез = Новый Структура;
-	Рез.Вставить(""StartFeaturePalyer"", Ложь);
+	Рез.Вставить(""StartFeaturePlayer"", Ложь);
 	Рез.Вставить(""КаталогФич"", """");
 	Рез.Вставить(""КаталогиБиблиотек"", Новый Массив);
 	Рез.Вставить(""СписокТеговИсключение"", Новый Массив);
@@ -8408,7 +8408,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 &НаКлиенте
 Функция СоздатьКоллекциюКомандЗапуска()
 	Рез = СоздатьСтруктуруПараметровЗапуска();
-	Рез.Вставить(""StartFeaturePalyer"", Новый Структура(""Р,А"", ""StartFeaturePalyer"",""StartFeaturePalyer""));
+	Рез.Вставить(""StartFeaturePlayer"", Новый Структура(""Р,А"", ""StartFeaturePlayer"",""StartFeaturePlayer""));
 	Рез.Вставить(""КаталогФич"", Новый Структура(""Р,А"", ""КаталогФич"",""featurepath""));
 	Рез.Вставить(""КаталогиБиблиотек"", Новый Структура(""Р,А"", ""КаталогиБиблиотек"",""librarycatalogs""));
 	Рез.Вставить(""СписокТеговИсключение"", Новый Структура(""Р,А"", ""СписокТеговИсключение"",""ignoretags""));
@@ -8550,14 +8550,14 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 	КонецЕсли;	 
 	
 	СтрЗапуска = СокрЛП(ПараметрЗапуска);
-	//СтрЗапуска = ""StartFeaturePalyer;VBParams=C:\Temp\VBParams83UF.json"";
+	//СтрЗапуска = ""StartFeaturePlayer;VBParams=C:\Temp\VBParams83UF.json"";
 	Если СтрЗапуска = """" Тогда
 		Возврат;
 	КонецЕсли;	
 	
 	СтруктураПараметров = ПолучитьСтруктуруПараметров(СтрЗапуска);
-	StartFeaturePalyer = ПолучитьЗначениеПереданногоПараметра(СтруктураПараметров,""StartFeaturePalyer"");
-	Если StartFeaturePalyer = Истина Тогда
+	StartFeaturePlayer = ПолучитьЗначениеПереданногоПараметра(СтруктураПараметров,""StartFeaturePlayer"");
+	Если StartFeaturePlayer = Истина Тогда
 		Объект.ЗапускИзКоманднойСтроки = Истина;
 		
 		VBParams = ПолучитьЗначениеПереданногоПараметра(СтруктураПараметров,""VBParams"");
