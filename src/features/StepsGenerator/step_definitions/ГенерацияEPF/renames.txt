@@ -1,5 +1,5 @@
 ﻿70e297e0-e8a2-43bf-8be1-62e408f610a1-->und\70e297e0-e8a2-43bf-8be1-62e408f610a1
-70e297e0-e8a2-43bf-8be1-62e408f610a1.0-->D:\git\vanessa-behavoir\src\features\StepsGenerator\step_definitions\ГенерацияEPF\Form\Форма\Форма.txt
+70e297e0-e8a2-43bf-8be1-62e408f610a1.0-->C:\snake\contributor-stack\behavior\src\features\StepsGenerator\step_definitions\ГенерацияEPF\Form\Форма\Форма.txt
 70e297e0-e8a2-43bf-8be1-62e408f610a1.0-->und\70e297e0-e8a2-43bf-8be1-62e408f610a1.0
 70e297e0-e8a2-43bf-8be1-62e408f610a1.0-->und\70e297e0-e8a2-43bf-8be1-62e408f610a1.0
 79a499cc-1782-4a2f-abe7-61ea4d49fd5a-->und\79a499cc-1782-4a2f-abe7-61ea4d49fd5a
