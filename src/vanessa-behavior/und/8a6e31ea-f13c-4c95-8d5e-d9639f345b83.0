@@ -10949,7 +10949,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 		Возврат;
 	КонецЕсли; 
 	
-	ЗапуститьПриложение(""C:\Commons\Rep\vanessa-ci\MakeVideoInstr\mousemover\untitled11.exe"",,Истина);
+	//ЗапуститьПриложение(""C:\Commons\Rep\vanessa-ci\MakeVideoInstr\mousemover\untitled11.exe"",,Истина);
 	
 	ТекИД_ВыполненногоШагаВМассиве = ТекИД_ШагаВМассиве;
 	
