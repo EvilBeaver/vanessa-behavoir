@@ -16790,7 +16790,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 	КонецЕсли;	 
 	
 	
-	Путь = Объект.КаталогСкриптовСборкиВидео + ""\uihelper\FrameShow\FrameShow.exe -showframeofactivecontrol timeshowframe=3000"";
+	Путь = Объект.КаталогСкриптовСборкиВидео + ""\uihelper\FrameShow\FrameShow.exe -showframeofactivecontrol timeshowframe=2000"";
 	ВыполнитьКомандуОСБезПоказаЧерногоОкна(Путь);
 КонецПроцедуры
 
