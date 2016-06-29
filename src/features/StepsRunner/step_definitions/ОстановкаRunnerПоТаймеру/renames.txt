@@ -1,12 +1,10 @@
 ﻿59147b79-623e-4ea3-9394-c0b406f0f176-->und\59147b79-623e-4ea3-9394-c0b406f0f176
-59147b79-623e-4ea3-9394-c0b406f0f176.0-->H:\Commons\vanessa-behavoir\src\features\StepsRunner\step_definitions\ОстановкаRunnerПоТаймеру\Form\ОбычнаяФорма
+59147b79-623e-4ea3-9394-c0b406f0f176.0-->Form\ОбычнаяФорма
 70e297e0-e8a2-43bf-8be1-62e408f610a1-->und\70e297e0-e8a2-43bf-8be1-62e408f610a1
-70e297e0-e8a2-43bf-8be1-62e408f610a1.0-->H:\Commons\vanessa-behavoir\src\features\StepsRunner\step_definitions\ОстановкаRunnerПоТаймеру\Form\Форма\Форма.txt
-70e297e0-e8a2-43bf-8be1-62e408f610a1.0-->und\70e297e0-e8a2-43bf-8be1-62e408f610a1.0
 70e297e0-e8a2-43bf-8be1-62e408f610a1.0-->und\70e297e0-e8a2-43bf-8be1-62e408f610a1.0
 79a499cc-1782-4a2f-abe7-61ea4d49fd5a-->und\79a499cc-1782-4a2f-abe7-61ea4d49fd5a
 8aa13ab8-188a-4f59-be4f-031aa5450c90.0\info-->und\8aa13ab8-188a-4f59-be4f-031aa5450c90.0\info
-8aa13ab8-188a-4f59-be4f-031aa5450c90.0\text-->ObjectModule.txt
+8aa13ab8-188a-4f59-be4f-031aa5450c90.0\text-->ObjectModule.bsl
 copyinfo-->und\copyinfo
 root-->und\root
 version-->und\version
