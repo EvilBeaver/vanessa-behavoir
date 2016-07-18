@@ -19237,7 +19237,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 		Возврат;
 	КонецЕсли;	 
 	
-	ПутьКПриложению = Объект.КаталогИнструментов + ""\tools\VideoTools\FrameShow\FrameShow.exe"";
+	ПутьКПриложению = Объект.КаталогИнструментов + ""\tools\VideoTools\FrameShow.exe"";
 	Если Не ФайлСуществуетКомандаСистемы(ПутьКПриложению) Тогда
 		Возврат;
 	КонецЕсли;	 
@@ -19355,7 +19355,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 		Возврат;
 	КонецЕсли;	 
 	
-	ПутьКПриложению = Объект.КаталогИнструментов + ""\tools\VideoTools\MouseMove\MouseMove.exe"";
+	ПутьКПриложению = Объект.КаталогИнструментов + ""\tools\VideoTools\MouseMove.exe"";
 	Если Не ФайлСуществуетКомандаСистемы(ПутьКПриложению) Тогда
 		Возврат;
 	КонецЕсли;	 
