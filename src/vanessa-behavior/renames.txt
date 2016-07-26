@@ -1,14 +1,11 @@
 ﻿59a17b72-277d-4885-af21-67cc78cbc9e2.0\info-->und\59a17b72-277d-4885-af21-67cc78cbc9e2.0\info
-59a17b72-277d-4885-af21-67cc78cbc9e2.0\text-->ObjectModule.txt
+59a17b72-277d-4885-af21-67cc78cbc9e2.0\text-->ObjectModule.bsl
 5c906d2e-8b05-11e5-b599-9cd21ef5a847-->und\5c906d2e-8b05-11e5-b599-9cd21ef5a847
-5c906d2e-8b05-11e5-b599-9cd21ef5a847.0-->Макеты\ОтчетТестирования.mxl
 5c906d2e-8b05-11e5-b599-9cd21ef5a847.0-->und\5c906d2e-8b05-11e5-b599-9cd21ef5a847.0
 6d8592ce-5985-4e40-b37e-7faae8291ab6-->und\6d8592ce-5985-4e40-b37e-7faae8291ab6
 813effc7-9383-4845-a4fa-2f5481e5a12b-->und\813effc7-9383-4845-a4fa-2f5481e5a12b
 813effc7-9383-4845-a4fa-2f5481e5a12b.0-->Form\Форма
 8a6e31ea-f13c-4c95-8d5e-d9639f345b83-->und\8a6e31ea-f13c-4c95-8d5e-d9639f345b83
-8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0-->Form\УправляемаяФорма\Форма.txt
-8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0-->und\8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0
 8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0-->und\8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0
 copyinfo-->und\copyinfo
 root-->und\root
