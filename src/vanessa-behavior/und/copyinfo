@@ -39,6 +39,9 @@
 {3c587afc-6eab-47bc-a583-afb26533b2e5,3c587afc-6eab-47bc-a583-afb26533b2e5,1,
 {ec6bb5e5-b7a8-4d75-bec9-658107a699cf,"КаталогOutputИнструкцияMarkdown"}
 },
+{3cf5bac4-3777-4fcf-aeee-be3d6123a385,3cf5bac4-3777-4fcf-aeee-be3d6123a385,1,
+{c3831ec8-d8d5-4f93-8a22-f9bfae07327f,"VanessaBehavior"}
+},
 {460da161-c609-4913-a9d5-b774468cd6cb,460da161-c609-4913-a9d5-b774468cd6cb,1,
 {ec6bb5e5-b7a8-4d75-bec9-658107a699cf,"КаталогOutputAllure"}
 },
@@ -68,9 +71,6 @@
 },
 {67164642-7fbb-446d-b627-4bbec5c301c3,67164642-7fbb-446d-b627-4bbec5c301c3,1,
 {ec6bb5e5-b7a8-4d75-bec9-658107a699cf,"СписокТеговОтбор"}
-},
-{6990863b-2263-4938-be53-819eb4223295,6990863b-2263-4938-be53-819eb4223295,1,
-{c3831ec8-d8d5-4f93-8a22-f9bfae07327f,"VanessaBehavior"}
 },
 {70266db4-16e8-4988-b997-152f5cdce0ff,70266db4-16e8-4988-b997-152f5cdce0ff,1,
 {ec6bb5e5-b7a8-4d75-bec9-658107a699cf,"ЗаписьВидеоИмяTTS"}
@@ -164,7 +164,7 @@
 }
 },
 {1,
-{ac512ea0-267e-4d05-870b-917be5965353,6990863b-2263-4938-be53-819eb4223295,0}
+{ac512ea0-267e-4d05-870b-917be5965353,3cf5bac4-3777-4fcf-aeee-be3d6123a385,0}
 },
 {58,
 {
