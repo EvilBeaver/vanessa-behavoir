@@ -14,7 +14,11 @@
 {0,0,0},1,
 {0,0,0},4,cd5394d0-7dda-4b56-8927-93ccbe967a01,
 {21,
-{63,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,1,"ПодменюЗагрузитьФичи",
+{63,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},1,"ПодменюЗагрузитьФичи",
 {1,2,
 {"ru","Загрузить фичи"},
 {"en","Load features"}
@@ -245,7 +249,11 @@ JOn/AJ06Dg0Lnh0eAAAAAElFTkSuQmCC}
 }
 },2,a9f3b1ac-f51b-431e-b102-55a69acdecad,
 {28,
-{64,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,"ФормаЗагрузитьФичиИзКаталога",
+{64,02023637-7868-4a5f-8576-835a76e0c9ba},0,1,
+{0,
+{0,
+{"B",1},0}
+},0,"ФормаЗагрузитьФичиИзКаталога",
 {1,2,
 {"ru","Загрузить файлы из каталога"},
 {"en","Load features files from directory"}
@@ -290,7 +298,11 @@ JOn/AJ06Dg0Lnh0eAAAAAElFTkSuQmCC}
 {1,0},0},0,0,1,0,0,1,0,3,3},
 {"U"},1,0,0,1,0,0,0,3,3,3,0,0,0,0},a9f3b1ac-f51b-431e-b102-55a69acdecad,
 {28,
-{65,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,"ФормаЗагрузитьОднуФичу",
+{65,02023637-7868-4a5f-8576-835a76e0c9ba},0,1,
+{0,
+{0,
+{"B",1},0}
+},0,"ФормаЗагрузитьОднуФичу",
 {1,2,
 {"ru","Загрузить один файл"},
 {"en","Load one feature file"}
@@ -1731,7 +1743,11 @@ UTAKRsEoGAWDAjAwAABZUBINDcAPLQAAAABJRU5ErkJggg==}
 },0,0,0,1,
 {1,0},0,0,3,3,2,0,1,0},2,cd5394d0-7dda-4b56-8927-93ccbe967a01,
 {21,
-{45,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,3,"ФункциональностьЗакладки",
+{45,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},3,"ФункциональностьЗакладки",
 {1,1,
 {"ru","Функциональность закладки"}
 },
@@ -1745,7 +1761,7 @@ UTAKRsEoGAWDAjAwAABZUBINDcAPLQAAAABJRU5ErkJggg==}
 {0,0,0},1,
 {1,4,
 {0,1,0}
-},6,cd5394d0-7dda-4b56-8927-93ccbe967a01,
+},7,cd5394d0-7dda-4b56-8927-93ccbe967a01,
 {21,
 {44,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,4,"ГруппаЗапускТестов",
 {1,2,
@@ -1811,7 +1827,11 @@ UTAKRsEoGAWDAjAwAABZUBINDcAPLQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},143c00f7-a42d-4cd7-9189-88e4467dc768,
 {50,
-{66,02023637-7868-4a5f-8576-835a76e0c9ba},0,2,0,"ДеревоТестов",0,0,1,
+{66,02023637-7868-4a5f-8576-835a76e0c9ba},0,2,1,
+{0,
+{0,
+{"B",1},0}
+},"ДеревоТестов",0,0,1,
 {1,0},
 {1,0},
 {2,
@@ -3136,11 +3156,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},cd5394d0-7dda-4b56-8927-93ccbe967a01,
 {21,
-{83,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
-{0,
-{0,
-{"B",1},0}
-},4,"ГруппаКаталогиБиблиотек",
+{83,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,4,"ГруппаКаталогиБиблиотек",
 {1,2,
 {"ru","Библиотеки"},
 {"en","Libs and Canned steps"}
@@ -3550,11 +3566,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},cd5394d0-7dda-4b56-8927-93ccbe967a01,
 {21,
-{292,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
-{0,
-{0,
-{"B",1},0}
-},4,"ГруппаДополнительно",
+{292,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,4,"ГруппаДополнительно",
 {1,2,
 {"ru","Работа с UI"},
 {"en","Record UI behavior"}
@@ -4099,11 +4111,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {0,1,0}
 },4,cd5394d0-7dda-4b56-8927-93ccbe967a01,
 {21,
-{312,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
-{0,
-{0,
-{"B",1},0}
-},4,"СценарийПоведения",
+{312,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,4,"СценарийПоведения",
 {1,2,
 {"ru","Сценарий поведения"},
 {"en","Feature template"}
@@ -4224,14 +4232,9 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},cd5394d0-7dda-4b56-8927-93ccbe967a01,
 {21,
-{852,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
-{0,
-{0,
-{"B",1},0}
-},4,"СценарийПоведенияКод",
-{1,2,
-{"ru","Сценарий поведения код"},
-{"en","Feature template code"}
+{852,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,4,"СценарийПоведенияКод",
+{1,1,
+{"ru","Сценарий поведения код"}
 },
 {1,1,
 {"ru","Сценарий поведения код"}
@@ -4349,11 +4352,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},cd5394d0-7dda-4b56-8927-93ccbe967a01,
 {21,
-{317,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
-{0,
-{0,
-{"B",1},0}
-},4,"КодПроверкиПоведения",
+{317,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,4,"КодПроверкиПоведения",
 {1,2,
 {"ru","Код проверки поведения"},
 {"en","Generated code"}
@@ -4700,14 +4699,9 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {0,1,0}
 },3,cd5394d0-7dda-4b56-8927-93ccbe967a01,
 {21,
-{652,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
-{0,
-{0,
-{"B",1},0}
-},4,"СтраницыСервисОсновные",
-{1,2,
-{"ru","Основные"},
-{"en","Main"}
+{652,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,4,"СтраницыСервисОсновные",
+{1,1,
+{"ru","Основные"}
 },
 {1,1,
 {"ru","Страницы сервис основные"}
@@ -4725,7 +4719,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {"Pattern"},"",
 {3,4,
 {0}
-},0,0,3,3,0,0,0},13,a9f3b1ac-f51b-431e-b102-55a69acdecad,
+},0,0,3,3,0,0,0},14,a9f3b1ac-f51b-431e-b102-55a69acdecad,
 {28,
 {720,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,"КомандаСохранитьНастроийки",
 {1,1,
@@ -5302,7 +5296,11 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},77ffcc29-7f2d-4223-b22f-19666e7250ba,
 {33,
-{481,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,3,"ПроверкаРаботыVanessaBehaviorВРежимеTestClient",4,0,
+{481,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},3,"ПроверкаРаботыVanessaBehaviorВРежимеTestClient",4,0,
 {1,2,
 {"ru","Проверка работы Vanessa-Behavior в режиме test client"},
 {"en","Check Vanessa-Behavior on 1C test client session"}
@@ -5383,7 +5381,11 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},3,3},77ffcc29-7f2d-4223-b22f-19666e7250ba,
 {33,
-{289,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,3,"DebugLog2",4,0,
+{289,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},3,"DebugLog2",4,0,
 {1,2,
 {"ru","Включить отладочные сообщения"},
 {"en","Output verbose log and debug log"}
@@ -5788,6 +5790,100 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},3,3},77ffcc29-7f2d-4223-b22f-19666e7250ba,
 {33,
+{897,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},2,"ПортЗапускаТестКлиента",1,0,
+{1,0},
+{1,0},
+{2,
+{1},
+{0,51a50b95-38da-4c47-9332-b827ac6c331c}
+},
+{0},1,0,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,1,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5004,0},
+{0,0},2,
+{1,0},
+{1,0},2,1,0,
+{"Pattern"},1,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{0,1,0},1,
+{21,
+{898,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ПортЗапускаТестКлиентаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{10,
+{899,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ПортЗапускаТестКлиентаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3},3,3},77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{33,
 {364,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"VanessaStackCommons",1,0,
 {1,2,
 {"ru","Адрес расширенных инструментов Vanessa Satck Commons"},
@@ -5881,7 +5977,11 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},3,3},77ffcc29-7f2d-4223-b22f-19666e7250ba,
 {33,
-{380,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"КаталогИнструментов",1,0,
+{380,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},2,"КаталогИнструментов",1,0,
 {1,2,
 {"ru","Каталог Vanessa Stack"},
 {"en","directory for Vanessa Stack"}
@@ -6179,14 +6279,9 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},cd5394d0-7dda-4b56-8927-93ccbe967a01,
 {21,
-{654,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
-{0,
-{0,
-{"B",1},0}
-},4,"СтраницыОтчетыОЗапуске",
-{1,2,
-{"ru","Отчет о запуске сценариев"},
-{"en","Scenario reports"}
+{654,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,4,"СтраницыОтчетыОЗапуске",
+{1,1,
+{"ru","Отчет о запуске сценариев"}
 },
 {1,1,
 {"ru","Страницы отчеты о запуске"}
@@ -6991,14 +7086,9 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},cd5394d0-7dda-4b56-8927-93ccbe967a01,
 {21,
-{656,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
-{0,
-{0,
-{"B",1},0}
-},4,"СтраницыАвтоИнструкции",
-{1,2,
-{"ru","Автоинструкции"},
-{"en","Autodocumentation"}
+{656,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,4,"СтраницыАвтоИнструкции",
+{1,1,
+{"ru","Автоинструкции"}
 },
 {1,1,
 {"ru","Страницы авто инструкции"}
@@ -9509,7 +9599,11 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},cd5394d0-7dda-4b56-8927-93ccbe967a01,
 {21,
-{484,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,4,"ГруппаСлужебная",
+{484,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},4,"ГруппаСлужебная",
 {1,2,
 {"ru","Служебная"},
 {"en","Extended"}
@@ -9783,6 +9877,653 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
 },0,1,2,
 {1,
+{1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},cd5394d0-7dda-4b56-8927-93ccbe967a01,
+{21,
+{870,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},4,"ИзвестныеШаги",
+{1,1,
+{"ru","Известные шаги"}
+},
+{1,1,
+{"ru","Известные шаги"}
+},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{16,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,
+{0},
+{1,0},1,
+{"Pattern"},"",
+{3,4,
+{0}
+},0,0,3,3,0,0,0},1,143c00f7-a42d-4cd7-9189-88e4467dc768,
+{50,
+{872,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},"ТаблицаИзвестныхStepDefinition",0,0,1,
+{1,0},
+{1,0},
+{1,
+{9}
+},0,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,0,1,2,2,1,1,0,0,0,1,2,0,0,1,1,
+{0},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,1,1,13,
+{"U"},
+{0,1,0},
+{7,0ae4bea5-23be-42a7-b69e-97b11b29c453,37740564-9e86-44a0-bea9-3f485a5a3f91,8d772f97-c0ef-47c0-9cb0-efea28c61341,9ef79140-3de6-436a-8dda-610bb963f5db,b0016a68-ec64-4e6d-b905-c71fd62efc4c,b41f5bbc-ba5d-4888-8cd1-db246a371418,fa51b106-eae6-44c7-8054-76cbb3100603},1,
+{21,
+{873,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ТаблицаИзвестныхStepDefinitionКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3},1,
+{21,
+{874,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,9,"ТаблицаИзвестныхStepDefinitionКоманднаяПанель",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{0,0,1},0,1,0,0,0,3,3},4,77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{33,
+{885,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"ТаблицаИзвестныхStepDefinitionId",1,0,
+{1,0},
+{1,0},
+{2,
+{9},
+{2}
+},
+{0},1,0,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,2,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5004,0},
+{0,0},2,
+{1,0},
+{1,0},2,1,0,
+{"Pattern"},1,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{0,1,0},1,
+{21,
+{886,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ТаблицаИзвестныхStepDefinitionIdКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{10,
+{887,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ТаблицаИзвестныхStepDefinitionIdРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3},3,3},77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{33,
+{888,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"ТаблицаИзвестныхStepDefinitionСтрокаРеальнойПроцедуры",1,0,
+{1,0},
+{1,0},
+{2,
+{9},
+{3}
+},
+{0},1,0,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,2,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5004,0},
+{0,0},2,
+{1,0},
+{1,0},2,1,0,
+{"Pattern"},1,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{0,1,0},1,
+{21,
+{889,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ТаблицаИзвестныхStepDefinitionСтрокаРеальнойПроцедурыКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{10,
+{890,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ТаблицаИзвестныхStepDefinitionСтрокаРеальнойПроцедурыРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3},3,3},77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{33,
+{891,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},2,"ТаблицаИзвестныхStepDefinitionСтрокаДляПоиска",1,0,
+{1,0},
+{1,0},
+{2,
+{9},
+{5}
+},
+{0},1,0,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,2,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5004,0},
+{0,0},2,
+{1,0},
+{1,0},2,1,0,
+{"Pattern"},1,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{0,1,0},1,
+{21,
+{892,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ТаблицаИзвестныхStepDefinitionСтрокаДляПоискаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{10,
+{893,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ТаблицаИзвестныхStepDefinitionСтрокаДляПоискаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3},3,3},77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{33,
+{894,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},2,"ТаблицаИзвестныхStepDefinitionИмяФайла",1,0,
+{1,0},
+{1,0},
+{2,
+{9},
+{1}
+},
+{0},1,0,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,2,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5004,0},
+{0,0},2,
+{1,0},
+{1,0},2,1,0,
+{"Pattern"},1,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{0,1,0},1,
+{21,
+{895,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ТаблицаИзвестныхStepDefinitionИмяФайлаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{10,
+{896,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ТаблицаИзвестныхStepDefinitionИмяФайлаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3},3,3},2,2,1,0,
+{"Pattern"},"","",2,2,0,1,
+{10,
+{875,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ТаблицаИзвестныхStepDefinitionРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3},0,0,0,1,
+{4,
+{876,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ТаблицаИзвестныхStepDefinitionСтрокаПоиска",
+{1,0},
+{1,0},1,1,0,1,
+{1,0,2,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,1,0},1,0,0},1,
+{21,
+{877,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ТаблицаИзвестныхStepDefinitionСтрокаПоискаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3},1,
+{10,
+{878,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ТаблицаИзвестныхStepDefinitionСтрокаПоискаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3},2,
+{872,0},0,3,3},1,
+{4,
+{879,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,1,"ТаблицаИзвестныхStepDefinitionСостояниеПросмотра",
+{1,0},
+{1,0},1,1,0,1,
+{1,0,2,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{7,3,0,1,100},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e},3,
+{0,1,0},1,0,0},1,
+{21,
+{880,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ТаблицаИзвестныхStepDefinitionСостояниеПросмотраКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3},1,
+{10,
+{881,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ТаблицаИзвестныхStepDefinitionСостояниеПросмотраРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3},2,
+{872,1},0,3,3},1,
+{4,
+{882,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"ТаблицаИзвестныхStepDefinitionУправлениеПоиском",
+{1,0},
+{1,0},1,1,0,1,
+{1,0,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,1,0},1,0,0,2},1,
+{21,
+{883,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ТаблицаИзвестныхStepDefinitionУправлениеПоискомКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3},1,
+{10,
+{884,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ТаблицаИзвестныхStepDefinitionУправлениеПоискомРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3},2,
+{872,2},0,3,3},0,1,0,0,1,0,3,3,0},1,0,1,
+{10,
+{871,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ИзвестныеШагиРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
 {1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},1,0,1,
 {10,
 {728,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ФункциональностьЗакладкиРасширеннаяПодсказка",
@@ -9807,7 +10548,11 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},77ffcc29-7f2d-4223-b22f-19666e7250ba,
 {33,
-{81,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,1,"КаталогФич",1,0,
+{81,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},1,"КаталогФич",1,0,
 {1,2,
 {"ru","Текущий каталог файлов функциональности"},
 {"en","Current features files directory"}
@@ -10421,6 +11166,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 		Настройки.Свойство(""ЗапускатьТестКлиентВРежимеОтладки"", Объект.ЗапускатьТестКлиентВРежимеОтладки);
 		Настройки.Свойство(""КлючиОтладки"", 						Объект.КлючиОтладки);
 		Настройки.Свойство(""АдресОтладчика"", 					Объект.АдресОтладчика);
+		Настройки.Свойство(""ПортЗапускаТестКлиента"",			Объект.ПортЗапускаТестКлиента);
 		
 		Если НЕ Настройки.Свойство(""СоздаватьОбластиПриГенерацииКода"") Тогда
 			Объект.СоздаватьОбластиПриГенерацииКода = Истина;
@@ -10479,6 +11225,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 		
 	Иначе	//значит это первый запуск VB
 		Объект.ГенерироватьУФ = Истина;
+		Объект.ПортЗапускаТестКлиента =  1538;
 		Если СокрЛП(Объект.КаталогИнструментов) <> """" Тогда
 			Объект.КаталогиБиблиотек.Добавить(Объект.КаталогИнструментов + ""\features\Libraries"");
 			Объект.СписокТеговИсключение.Добавить(""IgnoreOnCIMainBuild"");
@@ -10556,6 +11303,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 	Настройки.Вставить(""ЗапускатьТестКлиентВРежимеОтладки"", Объект.ЗапускатьТестКлиентВРежимеОтладки);
 	Настройки.Вставить(""КлючиОтладки"", 						Объект.КлючиОтладки);
 	Настройки.Вставить(""АдресОтладчика"", 					Объект.АдресОтладчика);
+	Настройки.Вставить(""ПортЗапускаТестКлиента"",			Объект.ПортЗапускаТестКлиента);
 	
 	//запись видео
 	Настройки.Вставить(""ЗаписьВидеоКомандаНачатьЗаписьВидео"", Объект.ЗаписьВидеоКомандаНачатьЗаписьВидео);
@@ -11335,8 +12083,6 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 		
 	КонецЦикла;
 	
-	
-	
 КонецПроцедуры
 
 &НаКлиенте
@@ -11909,6 +12655,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 	Рез.Вставить(""ЗапускатьТестКлиентВРежимеОтладки"", Ложь);
 	Рез.Вставить(""КлючиОтладки"", """");
 	Рез.Вставить(""АдресОтладчика"", """");
+	Рез.Вставить(""ПортЗапускаТестКлиента"", """");
 	
 	Рез.Вставить(""ЗаписьВидеоКомандаНачатьЗаписьВидео"", """");
 	Рез.Вставить(""ЗаписьВидеоФайлКурсораМышки"", """");
@@ -11972,6 +12719,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 	Рез.Вставить(""ЗапускатьТестКлиентВРежимеОтладки"", 	Новый Структура(""Р,А"", ""ЗапускатьТестКлиентВРежимеОтладки"",""testclientdebug""));
 	Рез.Вставить(""КлючиОтладки"", 						Новый Структура(""Р,А"", ""КлючиОтладки"",""testclientdebugkeys""));
 	Рез.Вставить(""АдресОтладчика"", 						Новый Структура(""Р,А"", ""АдресОтладчика"",""testclientdebugaddress""));	
+	Рез.Вставить(""ПортЗапускаТестКлиента"",				Новый Структура(""Р,А"", ""ПортЗапускаТестКлиента"",""testclientport""));
 	
 	Рез.Вставить(""ЗаписьВидеоКомандаНачатьЗаписьВидео"", Новый Структура(""Р,А"", ""ЗаписьВидеоКомандаНачатьЗаписьВидео"",""comandrecvideo""));
 	Рез.Вставить(""ЗаписьВидеоФайлКурсораМышки"", Новый Структура(""Р,А"", ""ЗаписьВидеоФайлКурсораМышки"",""mousecurfile""));
@@ -12561,6 +13309,17 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 	МассивСнипетовПрерывающихЗаписьСценария = ПолучитьМассивСнипетовПрерывающихЗаписьСценария();
 	ВосстановитьНастройкиКлиент();
 	
+	Если Не ПодключитьУжеЗапущенныйTestClient() Тогда
+		СвободныйПорт = ПроверитьПортНаЗанятость(Объект.ПортЗапускаТестКлиента);
+		Если СвободныйПорт <> Объект.ПортЗапускаТестКлиента Тогда
+			СделатьСообщение(""Порт "" + Объект.ПортЗапускаТестКлиента + "" занят, порт подключение изменен на "" + СвободныйПорт);
+			Объект.ПортЗапускаТестКлиента = СвободныйПорт;
+			СохранитьНастройкиВХранилище(""ПортЗапускаТестКлиента"", Объект.ПортЗапускаТестКлиента);
+		КонецЕсли;
+	Иначе
+		СделатьСообщение(""TestClient подключен на "" + Объект.ПортЗапускаТестКлиента + "" порту."");
+	КонецЕсли;
+	
 	Объект.ИнтервалВыполненияШага = Объект.ИнтервалВыполненияШагаЗаданныйПользователем;
 	Если Объект.ИнтервалВыполненияШага = 0 Тогда
 		Объект.ИнтервалВыполненияШага = 0.1;
@@ -12582,7 +13341,6 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 	ПодключитьВнешниеБиблиотекиVB();
 	
 	ПодключитьОбработчикОжидания(""ПослеОткрытияФормы"",0.1,Истина);
-	
 	
 КонецПроцедуры
 
@@ -17769,8 +18527,8 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 
 &НаКлиенте
 Процедура ЗапуститьСеансTestClient(ДопПараметр = """")
-	СисИнфо = Новый СистемнаяИнформация; 
-	ВерсияПриложения = СисИнфо.ВерсияПриложения;
+	//СисИнфо = Новый СистемнаяИнформация; 
+	//ВерсияПриложения = СисИнфо.ВерсияПриложения;
 	
 	//ПутьК1С = ""C:\Program Files (x86)\1cv8\"" + ВерсияПриложения + ""\bin\1cv8.exe"";
 	//ФайлПроверкаСуществования = Новый Файл(ПутьК1С);
@@ -17797,19 +18555,96 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 		КаталогБазы = СтрЗаменить(КаталогБазы, ""\"", ""/"");
 	КонецЕсли;
 		
-	СтрокаЗапуска = """""""" + СтрокаЗапуска1с + """""" ENTERPRISE "" + КаталогБазы + ПараметрыОтладчика;
+	СтрокаЗапуска = """""""" + СтрокаЗапуска1с + """""" ENTERPRISE "" + КаталогБазы + ПараметрыОтладчика + "" /TESTCLIENT "";
+	СтрокаЗапуска = СтрокаЗапуска + ""-TPort "" + Формат(Объект.ПортЗапускаТестКлиента,""ЧГ="") + "" "";	
 	
-	Если ЭтоЗапускВРежимеКоманднойСтроки Тогда
-		СтрокаЗапуска = СтрокаЗапуска + "" /TESTCLIENT /CTemp "" + ДопПараметр;//добавил /CTemp, чтобы убрать передачу параметра в TestClient, с которым был запущен TestManager
-	Иначе
-		СтрокаЗапуска = СтрокаЗапуска + "" /TESTCLIENT "" + ДопПараметр;	
-	КонецЕсли;	 
+ 	Если ЭтоЗапускВРежимеКоманднойСтроки Тогда
+		СтрокаЗапуска = СтрокаЗапуска + "" /CTemp "" + ДопПараметр;//добавил /CTemp, чтобы убрать передачу параметра в TestClient, с которым был запущен TestManager
+ 	Иначе
+		СтрокаЗапуска = СтрокаЗапуска + ДопПараметр;	
+ 	КонецЕсли;		
 	
-	//Сообщить(""СтрокаЗапуска=""+СтрокаЗапуска);
+	Отладка(""СтрокаЗапуска=""+СтрокаЗапуска);
 	
 	ЗапуститьСистему(СтрокаЗапуска);
 	
 КонецПроцедуры
+
+&НаКлиенте
+Функция ПроверитьПортНаЗанятость(Знач Порт)
+	
+	Если Порт < 0 Или Порт > 65536 Тогда
+		Порт = 1538;
+	КонецЕсли;
+	
+	МассивЗанятыхПортов = ПолучитьМассивЗанятыхПортов();
+	Если МассивЗанятыхПортов.Найти(Порт) <> Неопределено Тогда
+		// найти свободный порт в диапазоне
+		Для Счетчик = 48000 По 50000 Цикл
+			Если МассивЗанятыхПортов.Найти(Счетчик) = Неопределено Тогда
+				СвободныйПорт = Счетчик;
+				Прервать;
+			КонецЕсли;
+		КонецЦикла;		
+		Возврат СвободныйПорт;
+	КонецЕсли;	
+	
+	Возврат Порт;
+
+КонецФункции // ПолучитьСвободныйПорт()
+
+&НаКлиенте
+Функция ПолучитьМассивЗанятыхПортов()
+
+	Если НЕ ЭтоLinux Тогда
+		ИмяВременногоФайла = ПолучитьИмяВременногоФайла(""txt"");
+		ИмяВременногоBat = ПолучитьИмяВременногоФайла(""bat"");
+		ЗТ = Новый ЗаписьТекста(ИмяВременногоBat, ""windows-1251"",,Истина); 
+		ЗТ.ЗаписатьСтроку(""chcp 65001""); 
+		ЗТ.ЗаписатьСтроку(""netstat -ano > "" + ИмяВременногоФайла + """"); 
+		ЗТ.Закрыть();	
+		
+		ВыполнитьКомандуОСБезПоказаЧерногоОкна(ИмяВременногоBat);
+		
+		Текст = Новый ЧтениеТекста;
+		Текст.Открыть(ИмяВременногоФайла,""UTF-8"");
+		
+		МассивЗанятыхПортов = Новый Массив;
+		Пока Истина Цикл
+			Стр = Текст.ПрочитатьСтроку();
+			Если Стр = Неопределено Тогда
+				Прервать;
+			КонецЕсли;	 
+			
+			Порт_ = СокрЛП(Сред(Стр, 10, 23));
+			Порт = """";
+			Для НомерСимвола = 0 По СтрДлина(Порт_)-1 Цикл
+				СимволСтроки = Сред(Порт_, СтрДлина(Порт_) - НомерСимвола, 1);
+				Если СимволСтроки = "":"" Тогда
+					Прервать;
+				КонецЕсли;			
+				Если Найти(""0123456789"", СимволСтроки) > 0 Тогда
+					Порт = СимволСтроки + Порт;
+				КонецЕсли;			
+			КонецЦикла;
+			
+			Попытка
+				Порт = Число(Порт);
+				МассивЗанятыхПортов.Добавить(Порт);
+			Исключение
+				Продолжить;
+			КонецПопытки;
+		КонецЦикла;	
+		Текст.Закрыть();
+	Иначе
+		// в каком формате вывод, что читать??
+		СтрокаЗапуска = ""ss -tuwan4 2>/dev/null | awk '{print $5}' | grep ':' | cut -d """":"""" -f 2 | sort | uniq"";
+		ЗапуститьПриложение(СтрокаЗапуска);		
+	КонецЕсли;
+	
+	Возврат МассивЗанятыхПортов;
+
+КонецФункции // ПолучитьЗанятыеПорты()
 
 &НаКлиенте
 Функция ПолучитьМассивPIDПроцессов(ИмяОбраза) Экспорт
@@ -17848,7 +18683,6 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 	
 	Возврат МассивProcessID;
 КонецФункции	
-
 
 &НаКлиенте
 Процедура ЗавершитьСеансыTestClientПринудительно() Экспорт
@@ -17915,12 +18749,16 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 
 &НаКлиенте
 Функция СоздатьТестовоеПриложение()
+	
 	ТипЗначения = Тип(""ТестируемоеПриложение"");
 	ПараметрыОбъекта = Новый Массив;
 	ПараметрыОбъекта.Добавить(""localhost"");
-	ТестовоеПриложение = Новый (ТипЗначения,ПараметрыОбъекта);
+	ПараметрыОбъекта.Добавить(Объект.ПортЗапускаТестКлиента);
+	//ТестовоеПриложение = Новый (ТипЗначения,ПараметрыОбъекта);  // не работает с несколькими параметрами
+	ТестовоеПриложение = Новый ТестируемоеПриложение(""localhost"", Объект.ПортЗапускаТестКлиента);
 	
 	Возврат ТестовоеПриложение;
+	
 КонецФункции	
 
 &НаКлиенте
@@ -17975,7 +18813,8 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 	//УстановитьКраткийЗаголовокПриложения(""Vanessa-behavior"");
 	
 	Если ПодключитьУжеЗапущенныйTestClient() Тогда
-		СделатьСообщение(""TestClient подключен."");
+		//СделатьСообщение(""TestClient подключен."");
+		СделатьСообщение(""TestClient подключен на "" + Объект.ПортЗапускаТестКлиента + "" порту."");
 		Возврат Истина;
 	КонецЕсли;	
 	
@@ -17991,7 +18830,8 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 		ЗапуститьСеансTestClient(ДопПараметр);
 		Sleep(4);
 		УстановитьКонектСTestClient(ТестовоеПриложение);
-		СделатьСообщение(""TestClient подключен."");
+		//СделатьСообщение(""TestClient подключен."");
+		СделатьСообщение(""TestClient подключен на "" + Объект.ПортЗапускаТестКлиента + "" порту."");
 	Исключение
 		СделатьСообщение(""TestClient НЕ подключен."");
 	    Возврат Ложь;
@@ -20094,6 +20934,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 Процедура ВосстановитьВсеНастройкиИзХранилища()
 	ВосстановитьНастройкиИзХранилища(""КаталогФич"", ""КаталогФич""); 
 	ВосстановитьНастройкиИзХранилища(""КаталогиБиблиотек"", ""КаталогиБиблиотек""); 
+	ВосстановитьНастройкиИзХранилища(""ПортЗапускаТестКлиента"", ""ПортЗапускаТестКлиента""); 
 КонецПроцедуры
 
 &НаСервере
@@ -20107,6 +20948,7 @@ FtsJh5CfHH8jLzNdU/yY3/8476if8/+p3j9onWx9YQAAAABJRU5ErkJggg==}
 		Если Ложь
 			Или ИмяРеквизита = ""КаталогФич""
 			Или ИмяРеквизита = ""КаталогиБиблиотек""
+			Или ИмяРеквизита = ""ПортЗапускаТестКлиента""
 			Тогда
 			
 			Объект[ИмяРеквизита] = СохраненноеЗначение;
@@ -21094,137 +21936,138 @@ CQk8cmlnaHQgeHNpOnR5cGU9InhzOmJvb2xlYW4iPnRydWU8L3JpZ2h0Pg0KCQkJ
 CQkJPC9pdGVtPg0KCQkJCQk8L2l0ZW0+DQoJCQkJPC9pdGVtPg0KCQkJPC9maWx0
 ZXI+DQoJCQk8YXBwZWFyYW5jZT4NCgkJCQk8ZGNzY29yOml0ZW0geHNpOnR5cGU9
 IlNldHRpbmdzUGFyYW1ldGVyVmFsdWUiPg0KCQkJCQk8ZGNzY29yOnBhcmFtZXRl
-cj5CYWNrQ29sb3I8L2Rjc2NvcjpwYXJhbWV0ZXI+DQoJCQkJCTxkY3Njb3I6dmFs
-dWUgeHNpOnR5cGU9InY4dWk6Q29sb3IiPiNGRkZCNEE8L2Rjc2Nvcjp2YWx1ZT4N
-CgkJCQk8L2Rjc2NvcjppdGVtPg0KCQkJPC9hcHBlYXJhbmNlPg0KCQk8L2l0ZW0+
-DQoJCTxpdGVtPg0KCQkJPHNlbGVjdGlvbj4NCgkJCQk8aXRlbT4NCgkJCQkJPGZp
-ZWxkPtCU0LXRgNC10LLQvtCi0LXRgdGC0L7QstCY0LzRjzwvZmllbGQ+DQoJCQkJ
-PC9pdGVtPg0KCQkJPC9zZWxlY3Rpb24+DQoJCQk8ZmlsdGVyPg0KCQkJCTxpdGVt
-IHhzaTp0eXBlPSJGaWx0ZXJJdGVtR3JvdXAiPg0KCQkJCQk8Z3JvdXBUeXBlPkFu
-ZEdyb3VwPC9ncm91cFR5cGU+DQoJCQkJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJ
-dGVtQ29tcGFyaXNvbiI+DQoJCQkJCQk8bGVmdCB4c2k6dHlwZT0iZGNzY29yOkZp
-ZWxkIj7QntCx0YrQtdC60YIu0JTQtdGA0LXQstC+0KLQtdGB0YLQvtCyLtCh0YLQ
-sNGC0YPRgTwvbGVmdD4NCgkJCQkJCTxjb21wYXJpc29uVHlwZT5FcXVhbDwvY29t
-cGFyaXNvblR5cGU+DQoJCQkJCQk8cmlnaHQgeHNpOnR5cGU9InhzOnN0cmluZyI+
-RmFpbGVkPC9yaWdodD4NCgkJCQkJPC9pdGVtPg0KCQkJCQk8aXRlbSB4c2k6dHlw
-ZT0iRmlsdGVySXRlbUdyb3VwIj4NCgkJCQkJCTxncm91cFR5cGU+T3JHcm91cDwv
-Z3JvdXBUeXBlPg0KCQkJCQkJPGl0ZW0geHNpOnR5cGU9IkZpbHRlckl0ZW1Db21w
-YXJpc29uIj4NCgkJCQkJCQk8bGVmdCB4c2k6dHlwZT0iZGNzY29yOkZpZWxkIj7Q
-ntCx0YrQtdC60YIu0JTQtdGA0LXQstC+0KLQtdGB0YLQvtCyLtCh0YbQtdC90LDR
-gNC40Lk8L2xlZnQ+DQoJCQkJCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21w
-YXJpc29uVHlwZT4NCgkJCQkJCQk8cmlnaHQgeHNpOnR5cGU9InhzOmJvb2xlYW4i
-PnRydWU8L3JpZ2h0Pg0KCQkJCQkJPC9pdGVtPg0KCQkJCQkJPGl0ZW0geHNpOnR5
-cGU9IkZpbHRlckl0ZW1Db21wYXJpc29uIj4NCgkJCQkJCQk8bGVmdCB4c2k6dHlw
-ZT0iZGNzY29yOkZpZWxkIj7QntCx0YrQtdC60YIu0JTQtdGA0LXQstC+0KLQtdGB
-0YLQvtCyLtCf0YDQuNC80LXRgDwvbGVmdD4NCgkJCQkJCQk8Y29tcGFyaXNvblR5
+cj7QptCy0LXRgtCk0L7QvdCwPC9kY3Njb3I6cGFyYW1ldGVyPg0KCQkJCQk8ZGNz
+Y29yOnZhbHVlIHhzaTp0eXBlPSJ2OHVpOkNvbG9yIj4jRkZGQjRBPC9kY3Njb3I6
+dmFsdWU+DQoJCQkJPC9kY3Njb3I6aXRlbT4NCgkJCTwvYXBwZWFyYW5jZT4NCgkJ
+PC9pdGVtPg0KCQk8aXRlbT4NCgkJCTxzZWxlY3Rpb24+DQoJCQkJPGl0ZW0+DQoJ
+CQkJCTxmaWVsZD7QlNC10YDQtdCy0L7QotC10YHRgtC+0LLQmNC80Y88L2ZpZWxk
+Pg0KCQkJCTwvaXRlbT4NCgkJCTwvc2VsZWN0aW9uPg0KCQkJPGZpbHRlcj4NCgkJ
+CQk8aXRlbSB4c2k6dHlwZT0iRmlsdGVySXRlbUdyb3VwIj4NCgkJCQkJPGdyb3Vw
+VHlwZT5BbmRHcm91cDwvZ3JvdXBUeXBlPg0KCQkJCQk8aXRlbSB4c2k6dHlwZT0i
+RmlsdGVySXRlbUNvbXBhcmlzb24iPg0KCQkJCQkJPGxlZnQgeHNpOnR5cGU9ImRj
+c2NvcjpGaWVsZCI+0J7QsdGK0LXQutGCLtCU0LXRgNC10LLQvtCi0LXRgdGC0L7Q
+si7QodGC0LDRgtGD0YE8L2xlZnQ+DQoJCQkJCQk8Y29tcGFyaXNvblR5cGU+RXF1
+YWw8L2NvbXBhcmlzb25UeXBlPg0KCQkJCQkJPHJpZ2h0IHhzaTp0eXBlPSJ4czpz
+dHJpbmciPkZhaWxlZDwvcmlnaHQ+DQoJCQkJCTwvaXRlbT4NCgkJCQkJPGl0ZW0g
+eHNpOnR5cGU9IkZpbHRlckl0ZW1Hcm91cCI+DQoJCQkJCQk8Z3JvdXBUeXBlPk9y
+R3JvdXA8L2dyb3VwVHlwZT4NCgkJCQkJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJ
+dGVtQ29tcGFyaXNvbiI+DQoJCQkJCQkJPGxlZnQgeHNpOnR5cGU9ImRjc2NvcjpG
+aWVsZCI+0J7QsdGK0LXQutGCLtCU0LXRgNC10LLQvtCi0LXRgdGC0L7Qsi7QodGG
+0LXQvdCw0YDQuNC5PC9sZWZ0Pg0KCQkJCQkJCTxjb21wYXJpc29uVHlwZT5FcXVh
+bDwvY29tcGFyaXNvblR5cGU+DQoJCQkJCQkJPHJpZ2h0IHhzaTp0eXBlPSJ4czpi
+b29sZWFuIj50cnVlPC9yaWdodD4NCgkJCQkJCTwvaXRlbT4NCgkJCQkJCTxpdGVt
+IHhzaTp0eXBlPSJGaWx0ZXJJdGVtQ29tcGFyaXNvbiI+DQoJCQkJCQkJPGxlZnQg
+eHNpOnR5cGU9ImRjc2NvcjpGaWVsZCI+0J7QsdGK0LXQutGCLtCU0LXRgNC10LLQ
+vtCi0LXRgdGC0L7Qsi7Qn9GA0LjQvNC10YA8L2xlZnQ+DQoJCQkJCQkJPGNvbXBh
+cmlzb25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4NCgkJCQkJCQk8cmlnaHQg
+eHNpOnR5cGU9InhzOmJvb2xlYW4iPnRydWU8L3JpZ2h0Pg0KCQkJCQkJPC9pdGVt
+Pg0KCQkJCQk8L2l0ZW0+DQoJCQkJPC9pdGVtPg0KCQkJPC9maWx0ZXI+DQoJCQk8
+YXBwZWFyYW5jZT4NCgkJCQk8ZGNzY29yOml0ZW0geHNpOnR5cGU9IlNldHRpbmdz
+UGFyYW1ldGVyVmFsdWUiPg0KCQkJCQk8ZGNzY29yOnBhcmFtZXRlcj7QptCy0LXR
+gtCk0L7QvdCwPC9kY3Njb3I6cGFyYW1ldGVyPg0KCQkJCQk8ZGNzY29yOnZhbHVl
+IHhzaTp0eXBlPSJ2OHVpOkNvbG9yIj5zdHlsZTpTcGVjaWFsVGV4dENvbG9yPC9k
+Y3Njb3I6dmFsdWU+DQoJCQkJPC9kY3Njb3I6aXRlbT4NCgkJCTwvYXBwZWFyYW5j
+ZT4NCgkJPC9pdGVtPg0KCQk8aXRlbT4NCgkJCTxzZWxlY3Rpb24+DQoJCQkJPGl0
+ZW0+DQoJCQkJCTxmaWVsZD7QlNC10YDQtdCy0L7QotC10YHRgtC+0LLQmNC80Y88
+L2ZpZWxkPg0KCQkJCTwvaXRlbT4NCgkJCTwvc2VsZWN0aW9uPg0KCQkJPGZpbHRl
+cj4NCgkJCQk8aXRlbSB4c2k6dHlwZT0iRmlsdGVySXRlbUdyb3VwIj4NCgkJCQkJ
+PGdyb3VwVHlwZT5BbmRHcm91cDwvZ3JvdXBUeXBlPg0KCQkJCQk8aXRlbSB4c2k6
+dHlwZT0iRmlsdGVySXRlbUNvbXBhcmlzb24iPg0KCQkJCQkJPGxlZnQgeHNpOnR5
+cGU9ImRjc2NvcjpGaWVsZCI+0J7QsdGK0LXQutGCLtCU0LXRgNC10LLQvtCi0LXR
+gdGC0L7Qsi7QodGC0LDRgtGD0YE8L2xlZnQ+DQoJCQkJCQk8Y29tcGFyaXNvblR5
+cGU+RXF1YWw8L2NvbXBhcmlzb25UeXBlPg0KCQkJCQkJPHJpZ2h0IHhzaTp0eXBl
+PSJ4czpzdHJpbmciPlN1Y2Nlc3M8L3JpZ2h0Pg0KCQkJCQk8L2l0ZW0+DQoJCQkJ
+CTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtR3JvdXAiPg0KCQkJCQkJPGdyb3Vw
+VHlwZT5Pckdyb3VwPC9ncm91cFR5cGU+DQoJCQkJCQk8aXRlbSB4c2k6dHlwZT0i
+RmlsdGVySXRlbUNvbXBhcmlzb24iPg0KCQkJCQkJCTxsZWZ0IHhzaTp0eXBlPSJk
+Y3Njb3I6RmllbGQiPtCe0LHRitC10LrRgi7QlNC10YDQtdCy0L7QotC10YHRgtC+
+0LIu0KHRhtC10L3QsNGA0LjQuTwvbGVmdD4NCgkJCQkJCQk8Y29tcGFyaXNvblR5
 cGU+RXF1YWw8L2NvbXBhcmlzb25UeXBlPg0KCQkJCQkJCTxyaWdodCB4c2k6dHlw
 ZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJCQkJCQk8L2l0ZW0+DQoJCQkJ
-CTwvaXRlbT4NCgkJCQk8L2l0ZW0+DQoJCQk8L2ZpbHRlcj4NCgkJCTxhcHBlYXJh
-bmNlPg0KCQkJCTxkY3Njb3I6aXRlbSB4c2k6dHlwZT0iU2V0dGluZ3NQYXJhbWV0
-ZXJWYWx1ZSI+DQoJCQkJCTxkY3Njb3I6cGFyYW1ldGVyPkJhY2tDb2xvcjwvZGNz
-Y29yOnBhcmFtZXRlcj4NCgkJCQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjh1
-aTpDb2xvciI+c3R5bGU6U3BlY2lhbFRleHRDb2xvcjwvZGNzY29yOnZhbHVlPg0K
-CQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8L2FwcGVhcmFuY2U+DQoJCTwvaXRlbT4N
-CgkJPGl0ZW0+DQoJCQk8c2VsZWN0aW9uPg0KCQkJCTxpdGVtPg0KCQkJCQk8Zmll
-bGQ+0JTQtdGA0LXQstC+0KLQtdGB0YLQvtCy0JjQvNGPPC9maWVsZD4NCgkJCQk8
-L2l0ZW0+DQoJCQk8L3NlbGVjdGlvbj4NCgkJCTxmaWx0ZXI+DQoJCQkJPGl0ZW0g
-eHNpOnR5cGU9IkZpbHRlckl0ZW1Hcm91cCI+DQoJCQkJCTxncm91cFR5cGU+QW5k
-R3JvdXA8L2dyb3VwVHlwZT4NCgkJCQkJPGl0ZW0geHNpOnR5cGU9IkZpbHRlckl0
-ZW1Db21wYXJpc29uIj4NCgkJCQkJCTxsZWZ0IHhzaTp0eXBlPSJkY3Njb3I6Rmll
-bGQiPtCe0LHRitC10LrRgi7QlNC10YDQtdCy0L7QotC10YHRgtC+0LIu0KHRgtCw
-0YLRg9GBPC9sZWZ0Pg0KCQkJCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21w
-YXJpc29uVHlwZT4NCgkJCQkJCTxyaWdodCB4c2k6dHlwZT0ieHM6c3RyaW5nIj5T
-dWNjZXNzPC9yaWdodD4NCgkJCQkJPC9pdGVtPg0KCQkJCQk8aXRlbSB4c2k6dHlw
-ZT0iRmlsdGVySXRlbUdyb3VwIj4NCgkJCQkJCTxncm91cFR5cGU+T3JHcm91cDwv
-Z3JvdXBUeXBlPg0KCQkJCQkJPGl0ZW0geHNpOnR5cGU9IkZpbHRlckl0ZW1Db21w
-YXJpc29uIj4NCgkJCQkJCQk8bGVmdCB4c2k6dHlwZT0iZGNzY29yOkZpZWxkIj7Q
-ntCx0YrQtdC60YIu0JTQtdGA0LXQstC+0KLQtdGB0YLQvtCyLtCh0YbQtdC90LDR
-gNC40Lk8L2xlZnQ+DQoJCQkJCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21w
-YXJpc29uVHlwZT4NCgkJCQkJCQk8cmlnaHQgeHNpOnR5cGU9InhzOmJvb2xlYW4i
-PnRydWU8L3JpZ2h0Pg0KCQkJCQkJPC9pdGVtPg0KCQkJCQkJPGl0ZW0geHNpOnR5
-cGU9IkZpbHRlckl0ZW1Db21wYXJpc29uIj4NCgkJCQkJCQk8bGVmdCB4c2k6dHlw
-ZT0iZGNzY29yOkZpZWxkIj7QntCx0YrQtdC60YIu0JTQtdGA0LXQstC+0KLQtdGB
-0YLQvtCyLtCf0YDQuNC80LXRgDwvbGVmdD4NCgkJCQkJCQk8Y29tcGFyaXNvblR5
-cGU+RXF1YWw8L2NvbXBhcmlzb25UeXBlPg0KCQkJCQkJCTxyaWdodCB4c2k6dHlw
-ZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJCQkJCQk8L2l0ZW0+DQoJCQkJ
-CTwvaXRlbT4NCgkJCQk8L2l0ZW0+DQoJCQk8L2ZpbHRlcj4NCgkJCTxhcHBlYXJh
-bmNlPg0KCQkJCTxkY3Njb3I6aXRlbSB4c2k6dHlwZT0iU2V0dGluZ3NQYXJhbWV0
-ZXJWYWx1ZSI+DQoJCQkJCTxkY3Njb3I6cGFyYW1ldGVyPkJhY2tDb2xvcjwvZGNz
-Y29yOnBhcmFtZXRlcj4NCgkJCQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjh1
-aTpDb2xvciI+IzE1QjEwRTwvZGNzY29yOnZhbHVlPg0KCQkJCTwvZGNzY29yOml0
-ZW0+DQoJCQk8L2FwcGVhcmFuY2U+DQoJCTwvaXRlbT4NCgkJPGl0ZW0+DQoJCQk8
-c2VsZWN0aW9uPg0KCQkJCTxpdGVtPg0KCQkJCQk8ZmllbGQ+0JTQtdGA0LXQstC+
-0KLQtdGB0YLQvtCy0JjQvNGPPC9maWVsZD4NCgkJCQk8L2l0ZW0+DQoJCQk8L3Nl
-bGVjdGlvbj4NCgkJCTxmaWx0ZXI+DQoJCQkJPGl0ZW0geHNpOnR5cGU9IkZpbHRl
-ckl0ZW1Hcm91cCI+DQoJCQkJCTxncm91cFR5cGU+T3JHcm91cDwvZ3JvdXBUeXBl
-Pg0KCQkJCQk8aXRlbSB4c2k6dHlwZT0iRmlsdGVySXRlbUNvbXBhcmlzb24iPg0K
-CQkJCQkJPGxlZnQgeHNpOnR5cGU9ImRjc2NvcjpGaWVsZCI+0J7QsdGK0LXQutGC
-LtCU0LXRgNC10LLQvtCi0LXRgdGC0L7Qsi7QodGC0YDQvtC60LDQn9Cw0YDQsNC8
-0LXRgtGA0L7QstCo0LDQs9Cw0JLQktC40LTQtdCi0LDQsdC70LjRhtGLPC9sZWZ0
-Pg0KCQkJCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4N
-CgkJCQkJCTxyaWdodCB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+
-DQoJCQkJCTwvaXRlbT4NCgkJCQkJPGl0ZW0geHNpOnR5cGU9IkZpbHRlckl0ZW1D
-b21wYXJpc29uIj4NCgkJCQkJCTxsZWZ0IHhzaTp0eXBlPSJkY3Njb3I6RmllbGQi
-PtCe0LHRitC10LrRgi7QlNC10YDQtdCy0L7QotC10YHRgtC+0LIu0J/RgNC40LzQ
-tdGAPC9sZWZ0Pg0KCQkJCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21wYXJp
-c29uVHlwZT4NCgkJCQkJCTxyaWdodCB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1
-ZTwvcmlnaHQ+DQoJCQkJCTwvaXRlbT4NCgkJCQk8L2l0ZW0+DQoJCQk8L2ZpbHRl
-cj4NCgkJCTxhcHBlYXJhbmNlPg0KCQkJCTxkY3Njb3I6aXRlbSB4c2k6dHlwZT0i
-U2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQkJCTxkY3Njb3I6cGFyYW1ldGVy
-PkZvbnQ8L2Rjc2NvcjpwYXJhbWV0ZXI+DQoJCQkJCTxkY3Njb3I6dmFsdWUgeHNp
-OnR5cGU9InY4dWk6Rm9udCIgcmVmPSJzeXM6RGVmYXVsdEdVSUZvbnQiIGZhY2VO
-YW1lPSJMdWNpZGEgQ29uc29sZSIgaGVpZ2h0PSIxMCIga2luZD0iV2luZG93c0Zv
-bnQiLz4NCgkJCQk8L2Rjc2NvcjppdGVtPg0KCQkJPC9hcHBlYXJhbmNlPg0KCQk8
-L2l0ZW0+DQoJCTxpdGVtPg0KCQkJPHNlbGVjdGlvbj4NCgkJCQk8aXRlbT4NCgkJ
-CQkJPGZpZWxkPtCU0LXRgNC10LLQvtCi0LXRgdGC0L7QstCf0L7Qu9C90YvQudCf
-0YPRgtGMPC9maWVsZD4NCgkJCQk8L2l0ZW0+DQoJCQkJPGl0ZW0+DQoJCQkJCTxm
-aWVsZD7QlNC10YDQtdCy0L7QotC10YHRgtC+0LLQkNC00YDQtdGB0KHQvdC40L/Q
-tdGC0LA8L2ZpZWxkPg0KCQkJCTwvaXRlbT4NCgkJCQk8aXRlbT4NCgkJCQkJPGZp
-ZWxkPtCU0LXRgNC10LLQvtCi0LXRgdGC0L7QstCh0L3QuNC/0LXRgjwvZmllbGQ+
-DQoJCQkJPC9pdGVtPg0KCQkJPC9zZWxlY3Rpb24+DQoJCQk8ZmlsdGVyPg0KCQkJ
-CTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtQ29tcGFyaXNvbiI+DQoJCQkJCTxs
-ZWZ0IHhzaTp0eXBlPSJkY3Njb3I6RmllbGQiPtCe0LHRitC10LrRgi7QlNC10YDQ
-tdCy0L7QotC10YHRgtC+0LIu0K3RgtC+0KfRg9C20L7QudCh0L3QuNC/0LXRgjwv
-bGVmdD4NCgkJCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlw
-ZT4NCgkJCQkJPHJpZ2h0IHhzaTp0eXBlPSJ4czpib29sZWFuIj50cnVlPC9yaWdo
-dD4NCgkJCQk8L2l0ZW0+DQoJCQk8L2ZpbHRlcj4NCgkJCTxhcHBlYXJhbmNlPg0K
-CQkJCTxkY3Njb3I6aXRlbSB4c2k6dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1
-ZSI+DQoJCQkJCTxkY3Njb3I6cGFyYW1ldGVyPkJhY2tDb2xvcjwvZGNzY29yOnBh
-cmFtZXRlcj4NCgkJCQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjh1aTpDb2xv
-ciI+I0Q5RDdDQzwvZGNzY29yOnZhbHVlPg0KCQkJCTwvZGNzY29yOml0ZW0+DQoJ
-CQk8L2FwcGVhcmFuY2U+DQoJCTwvaXRlbT4NCgkJPGl0ZW0+DQoJCQk8c2VsZWN0
-aW9uPg0KCQkJCTxpdGVtPg0KCQkJCQk8ZmllbGQ+0JTQtdGA0LXQstC+0KLQtdGB
-0YLQvtCy0JjQvNGPPC9maWVsZD4NCgkJCQk8L2l0ZW0+DQoJCQk8L3NlbGVjdGlv
-bj4NCgkJCTxmaWx0ZXI+DQoJCQkJPGl0ZW0geHNpOnR5cGU9IkZpbHRlckl0ZW1D
-b21wYXJpc29uIj4NCgkJCQkJPGxlZnQgeHNpOnR5cGU9ImRjc2NvcjpGaWVsZCI+
-0J7QsdGK0LXQutGCLtCU0LXRgNC10LLQvtCi0LXRgdGC0L7Qsi7QktGL0L/QvtC7
-0L3Rj9GC0YzQodGG0LXQvdCw0YDQuNC50KHQrdGC0L7Qs9C+0KjQsNCz0LA8L2xl
-ZnQ+DQoJCQkJCTxjb21wYXJpc29uVHlwZT5FcXVhbDwvY29tcGFyaXNvblR5cGU+
-DQoJCQkJCTxyaWdodCB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+
-DQoJCQkJPC9pdGVtPg0KCQkJPC9maWx0ZXI+DQoJCQk8YXBwZWFyYW5jZT4NCgkJ
-CQk8ZGNzY29yOml0ZW0geHNpOnR5cGU9IlNldHRpbmdzUGFyYW1ldGVyVmFsdWUi
-Pg0KCQkJCQk8ZGNzY29yOnBhcmFtZXRlcj5CYWNrQ29sb3I8L2Rjc2NvcjpwYXJh
-bWV0ZXI+DQoJCQkJCTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InY4dWk6Q29sb3Ii
-PiM5OUNDRkY8L2Rjc2Nvcjp2YWx1ZT4NCgkJCQk8L2Rjc2NvcjppdGVtPg0KCQkJ
-PC9hcHBlYXJhbmNlPg0KCQk8L2l0ZW0+DQoJCTxpdGVtPg0KCQkJPHNlbGVjdGlv
-bj4NCgkJCQk8aXRlbT4NCgkJCQkJPGZpZWxkPtCU0LXRgNC10LLQvtCi0LXRgdGC
-0L7QstCY0LzRjzwvZmllbGQ+DQoJCQkJPC9pdGVtPg0KCQkJPC9zZWxlY3Rpb24+
-DQoJCQk8ZmlsdGVyPg0KCQkJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtR3Jv
-dXAiPg0KCQkJCQk8Z3JvdXBUeXBlPk9yR3JvdXA8L2dyb3VwVHlwZT4NCgkJCQkJ
-PGl0ZW0geHNpOnR5cGU9IkZpbHRlckl0ZW1Db21wYXJpc29uIj4NCgkJCQkJCTxs
-ZWZ0IHhzaTp0eXBlPSJkY3Njb3I6RmllbGQiPtCe0LHRitC10LrRgi7QlNC10YDQ
-tdCy0L7QotC10YHRgtC+0LIu0J7QsdC70LDRgdGC0Yw8L2xlZnQ+DQoJCQkJCQk8
-Y29tcGFyaXNvblR5cGU+RXF1YWw8L2NvbXBhcmlzb25UeXBlPg0KCQkJCQkJPHJp
-Z2h0IHhzaTp0eXBlPSJ4czpib29sZWFuIj50cnVlPC9yaWdodD4NCgkJCQkJPC9p
-dGVtPg0KCQkJCTwvaXRlbT4NCgkJCTwvZmlsdGVyPg0KCQkJPGFwcGVhcmFuY2U+
-DQoJCQkJPGRjc2NvcjppdGVtIHhzaTp0eXBlPSJTZXR0aW5nc1BhcmFtZXRlclZh
-bHVlIj4NCgkJCQkJPGRjc2NvcjpwYXJhbWV0ZXI+Rm9udDwvZGNzY29yOnBhcmFt
-ZXRlcj4NCgkJCQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjh1aTpGb250IiBy
-ZWY9InN5czpEZWZhdWx0R1VJRm9udCIgZmFjZU5hbWU9IlRpbWVzIE5ldyBSb21h
-biIgaGVpZ2h0PSIxMiIgYm9sZD0iZmFsc2UiIGl0YWxpYz0idHJ1ZSIgdW5kZXJs
-aW5lPSJmYWxzZSIgc3RyaWtlb3V0PSJmYWxzZSIga2luZD0iV2luZG93c0ZvbnQi
-Lz4NCgkJCQk8L2Rjc2NvcjppdGVtPg0KCQkJPC9hcHBlYXJhbmNlPg0KCQk8L2l0
-ZW0+DQoJPC9jb25kaXRpb25hbEFwcGVhcmFuY2U+DQo8L1NldHRpbmdzPg==}
+CQk8aXRlbSB4c2k6dHlwZT0iRmlsdGVySXRlbUNvbXBhcmlzb24iPg0KCQkJCQkJ
+CTxsZWZ0IHhzaTp0eXBlPSJkY3Njb3I6RmllbGQiPtCe0LHRitC10LrRgi7QlNC1
+0YDQtdCy0L7QotC10YHRgtC+0LIu0J/RgNC40LzQtdGAPC9sZWZ0Pg0KCQkJCQkJ
+CTxjb21wYXJpc29uVHlwZT5FcXVhbDwvY29tcGFyaXNvblR5cGU+DQoJCQkJCQkJ
+PHJpZ2h0IHhzaTp0eXBlPSJ4czpib29sZWFuIj50cnVlPC9yaWdodD4NCgkJCQkJ
+CTwvaXRlbT4NCgkJCQkJPC9pdGVtPg0KCQkJCTwvaXRlbT4NCgkJCTwvZmlsdGVy
+Pg0KCQkJPGFwcGVhcmFuY2U+DQoJCQkJPGRjc2NvcjppdGVtIHhzaTp0eXBlPSJT
+ZXR0aW5nc1BhcmFtZXRlclZhbHVlIj4NCgkJCQkJPGRjc2NvcjpwYXJhbWV0ZXI+
+0KbQstC10YLQpNC+0L3QsDwvZGNzY29yOnBhcmFtZXRlcj4NCgkJCQkJPGRjc2Nv
+cjp2YWx1ZSB4c2k6dHlwZT0idjh1aTpDb2xvciI+IzE1QjEwRTwvZGNzY29yOnZh
+bHVlPg0KCQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8L2FwcGVhcmFuY2U+DQoJCTwv
+aXRlbT4NCgkJPGl0ZW0+DQoJCQk8c2VsZWN0aW9uPg0KCQkJCTxpdGVtPg0KCQkJ
+CQk8ZmllbGQ+0JTQtdGA0LXQstC+0KLQtdGB0YLQvtCy0JjQvNGPPC9maWVsZD4N
+CgkJCQk8L2l0ZW0+DQoJCQk8L3NlbGVjdGlvbj4NCgkJCTxmaWx0ZXI+DQoJCQkJ
+PGl0ZW0geHNpOnR5cGU9IkZpbHRlckl0ZW1Hcm91cCI+DQoJCQkJCTxncm91cFR5
+cGU+T3JHcm91cDwvZ3JvdXBUeXBlPg0KCQkJCQk8aXRlbSB4c2k6dHlwZT0iRmls
+dGVySXRlbUNvbXBhcmlzb24iPg0KCQkJCQkJPGxlZnQgeHNpOnR5cGU9ImRjc2Nv
+cjpGaWVsZCI+0J7QsdGK0LXQutGCLtCU0LXRgNC10LLQvtCi0LXRgdGC0L7Qsi7Q
+odGC0YDQvtC60LDQn9Cw0YDQsNC80LXRgtGA0L7QstCo0LDQs9Cw0JLQktC40LTQ
+tdCi0LDQsdC70LjRhtGLPC9sZWZ0Pg0KCQkJCQkJPGNvbXBhcmlzb25UeXBlPkVx
+dWFsPC9jb21wYXJpc29uVHlwZT4NCgkJCQkJCTxyaWdodCB4c2k6dHlwZT0ieHM6
+Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJCQkJCTwvaXRlbT4NCgkJCQkJPGl0ZW0g
+eHNpOnR5cGU9IkZpbHRlckl0ZW1Db21wYXJpc29uIj4NCgkJCQkJCTxsZWZ0IHhz
+aTp0eXBlPSJkY3Njb3I6RmllbGQiPtCe0LHRitC10LrRgi7QlNC10YDQtdCy0L7Q
+otC10YHRgtC+0LIu0J/RgNC40LzQtdGAPC9sZWZ0Pg0KCQkJCQkJPGNvbXBhcmlz
+b25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4NCgkJCQkJCTxyaWdodCB4c2k6
+dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJCQkJCTwvaXRlbT4NCgkJ
+CQk8L2l0ZW0+DQoJCQk8L2ZpbHRlcj4NCgkJCTxhcHBlYXJhbmNlPg0KCQkJCTxk
+Y3Njb3I6aXRlbSB4c2k6dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJ
+CQkJCTxkY3Njb3I6cGFyYW1ldGVyPtCo0YDQuNGE0YI8L2Rjc2NvcjpwYXJhbWV0
+ZXI+DQoJCQkJCTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InY4dWk6Rm9udCIgcmVm
+PSJzeXM6RGVmYXVsdEdVSUZvbnQiIGZhY2VOYW1lPSJMdWNpZGEgQ29uc29sZSIg
+aGVpZ2h0PSIxMCIga2luZD0iV2luZG93c0ZvbnQiLz4NCgkJCQk8L2Rjc2Nvcjpp
+dGVtPg0KCQkJPC9hcHBlYXJhbmNlPg0KCQk8L2l0ZW0+DQoJCTxpdGVtPg0KCQkJ
+PHNlbGVjdGlvbj4NCgkJCQk8aXRlbT4NCgkJCQkJPGZpZWxkPtCU0LXRgNC10LLQ
+vtCi0LXRgdGC0L7QstCf0L7Qu9C90YvQudCf0YPRgtGMPC9maWVsZD4NCgkJCQk8
+L2l0ZW0+DQoJCQkJPGl0ZW0+DQoJCQkJCTxmaWVsZD7QlNC10YDQtdCy0L7QotC1
+0YHRgtC+0LLQkNC00YDQtdGB0KHQvdC40L/QtdGC0LA8L2ZpZWxkPg0KCQkJCTwv
+aXRlbT4NCgkJCQk8aXRlbT4NCgkJCQkJPGZpZWxkPtCU0LXRgNC10LLQvtCi0LXR
+gdGC0L7QstCh0L3QuNC/0LXRgjwvZmllbGQ+DQoJCQkJPC9pdGVtPg0KCQkJPC9z
+ZWxlY3Rpb24+DQoJCQk8ZmlsdGVyPg0KCQkJCTxpdGVtIHhzaTp0eXBlPSJGaWx0
+ZXJJdGVtQ29tcGFyaXNvbiI+DQoJCQkJCTxsZWZ0IHhzaTp0eXBlPSJkY3Njb3I6
+RmllbGQiPtCe0LHRitC10LrRgi7QlNC10YDQtdCy0L7QotC10YHRgtC+0LIu0K3R
+gtC+0KfRg9C20L7QudCh0L3QuNC/0LXRgjwvbGVmdD4NCgkJCQkJPGNvbXBhcmlz
+b25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4NCgkJCQkJPHJpZ2h0IHhzaTp0
+eXBlPSJ4czpib29sZWFuIj50cnVlPC9yaWdodD4NCgkJCQk8L2l0ZW0+DQoJCQk8
+L2ZpbHRlcj4NCgkJCTxhcHBlYXJhbmNlPg0KCQkJCTxkY3Njb3I6aXRlbSB4c2k6
+dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQkJCTxkY3Njb3I6cGFy
+YW1ldGVyPtCm0LLQtdGC0KTQvtC90LA8L2Rjc2NvcjpwYXJhbWV0ZXI+DQoJCQkJ
+CTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InY4dWk6Q29sb3IiPiNEOUQ3Q0M8L2Rj
+c2Nvcjp2YWx1ZT4NCgkJCQk8L2Rjc2NvcjppdGVtPg0KCQkJPC9hcHBlYXJhbmNl
+Pg0KCQk8L2l0ZW0+DQoJCTxpdGVtPg0KCQkJPHNlbGVjdGlvbj4NCgkJCQk8aXRl
+bT4NCgkJCQkJPGZpZWxkPtCU0LXRgNC10LLQvtCi0LXRgdGC0L7QstCY0LzRjzwv
+ZmllbGQ+DQoJCQkJPC9pdGVtPg0KCQkJPC9zZWxlY3Rpb24+DQoJCQk8ZmlsdGVy
+Pg0KCQkJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtQ29tcGFyaXNvbiI+DQoJ
+CQkJCTxsZWZ0IHhzaTp0eXBlPSJkY3Njb3I6RmllbGQiPtCe0LHRitC10LrRgi7Q
+lNC10YDQtdCy0L7QotC10YHRgtC+0LIu0JLRi9C/0L7Qu9C90Y/RgtGM0KHRhtC1
+0L3QsNGA0LjQudCh0K3RgtC+0LPQvtCo0LDQs9CwPC9sZWZ0Pg0KCQkJCQk8Y29t
+cGFyaXNvblR5cGU+RXF1YWw8L2NvbXBhcmlzb25UeXBlPg0KCQkJCQk8cmlnaHQg
+eHNpOnR5cGU9InhzOmJvb2xlYW4iPnRydWU8L3JpZ2h0Pg0KCQkJCTwvaXRlbT4N
+CgkJCTwvZmlsdGVyPg0KCQkJPGFwcGVhcmFuY2U+DQoJCQkJPGRjc2NvcjppdGVt
+IHhzaTp0eXBlPSJTZXR0aW5nc1BhcmFtZXRlclZhbHVlIj4NCgkJCQkJPGRjc2Nv
+cjpwYXJhbWV0ZXI+0KbQstC10YLQpNC+0L3QsDwvZGNzY29yOnBhcmFtZXRlcj4N
+CgkJCQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjh1aTpDb2xvciI+Izk5Q0NG
+RjwvZGNzY29yOnZhbHVlPg0KCQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8L2FwcGVh
+cmFuY2U+DQoJCTwvaXRlbT4NCgkJPGl0ZW0+DQoJCQk8c2VsZWN0aW9uPg0KCQkJ
+CTxpdGVtPg0KCQkJCQk8ZmllbGQ+0JTQtdGA0LXQstC+0KLQtdGB0YLQvtCy0JjQ
+vNGPPC9maWVsZD4NCgkJCQk8L2l0ZW0+DQoJCQk8L3NlbGVjdGlvbj4NCgkJCTxm
+aWx0ZXI+DQoJCQkJPGl0ZW0geHNpOnR5cGU9IkZpbHRlckl0ZW1Hcm91cCI+DQoJ
+CQkJCTxncm91cFR5cGU+T3JHcm91cDwvZ3JvdXBUeXBlPg0KCQkJCQk8aXRlbSB4
+c2k6dHlwZT0iRmlsdGVySXRlbUNvbXBhcmlzb24iPg0KCQkJCQkJPGxlZnQgeHNp
+OnR5cGU9ImRjc2NvcjpGaWVsZCI+0J7QsdGK0LXQutGCLtCU0LXRgNC10LLQvtCi
+0LXRgdGC0L7Qsi7QntCx0LvQsNGB0YLRjDwvbGVmdD4NCgkJCQkJCTxjb21wYXJp
+c29uVHlwZT5FcXVhbDwvY29tcGFyaXNvblR5cGU+DQoJCQkJCQk8cmlnaHQgeHNp
+OnR5cGU9InhzOmJvb2xlYW4iPnRydWU8L3JpZ2h0Pg0KCQkJCQk8L2l0ZW0+DQoJ
+CQkJPC9pdGVtPg0KCQkJPC9maWx0ZXI+DQoJCQk8YXBwZWFyYW5jZT4NCgkJCQk8
+ZGNzY29yOml0ZW0geHNpOnR5cGU9IlNldHRpbmdzUGFyYW1ldGVyVmFsdWUiPg0K
+CQkJCQk8ZGNzY29yOnBhcmFtZXRlcj7QqNGA0LjRhNGCPC9kY3Njb3I6cGFyYW1l
+dGVyPg0KCQkJCQk8ZGNzY29yOnZhbHVlIHhzaTp0eXBlPSJ2OHVpOkZvbnQiIHJl
+Zj0ic3lzOkRlZmF1bHRHVUlGb250IiBmYWNlTmFtZT0iVGltZXMgTmV3IFJvbWFu
+IiBoZWlnaHQ9IjEyIiBib2xkPSJmYWxzZSIgaXRhbGljPSJ0cnVlIiB1bmRlcmxp
+bmU9ImZhbHNlIiBzdHJpa2VvdXQ9ImZhbHNlIiBraW5kPSJXaW5kb3dzRm9udCIv
+Pg0KCQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8L2FwcGVhcmFuY2U+DQoJCTwvaXRl
+bT4NCgk8L2NvbmRpdGlvbmFsQXBwZWFyYW5jZT4NCjwvU2V0dGluZ3M+}
 },
 {0,0},
 {0,23,
