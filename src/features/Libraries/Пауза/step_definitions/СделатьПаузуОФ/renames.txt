@@ -1,0 +1,9 @@
+﻿79a499cc-1782-4a2f-abe7-61ea4d49fd5a-->und\79a499cc-1782-4a2f-abe7-61ea4d49fd5a
+8aa13ab8-188a-4f59-be4f-031aa5450c90.0\info-->und\8aa13ab8-188a-4f59-be4f-031aa5450c90.0\info
+8aa13ab8-188a-4f59-be4f-031aa5450c90.0\text-->ObjectModule.bsl
+copyinfo-->und\copyinfo
+ec54a16b-4487-4f48-af33-95380a7d171a-->und\ec54a16b-4487-4f48-af33-95380a7d171a
+ec54a16b-4487-4f48-af33-95380a7d171a.0-->Form\ФормаТаймера
+root-->und\root
+version-->und\version
+versions-->und\versions
