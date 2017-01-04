@@ -4,6 +4,8 @@
 8aa13ab8-188a-4f59-be4f-031aa5450c90.0\info-->und\8aa13ab8-188a-4f59-be4f-031aa5450c90.0\info
 8aa13ab8-188a-4f59-be4f-031aa5450c90.0\text-->ObjectModule.bsl
 copyinfo-->und\copyinfo
+e2505c38-1ee4-40bc-9f48-db80f42ca295-->und\e2505c38-1ee4-40bc-9f48-db80f42ca295
+e2505c38-1ee4-40bc-9f48-db80f42ca295.0-->und\e2505c38-1ee4-40bc-9f48-db80f42ca295.0
 root-->und\root
 version-->und\version
 versions-->und\versions
