@@ -8458,7 +8458,11 @@ OXRY2/Q9VA4cVAtOvFjUjZ9jEFYQQNBmYA4Y1MRv9F3L790f++9XWfC2pXO2W84J
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},0,3,3},77ffcc29-7f2d-4223-b22f-19666e7250ba,
 {33,
-{380,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"КаталогИнструментов",1,0,
+{380,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},2,"КаталогИнструментов",1,0,
 {1,2,
 {"ru","Каталог Vanessa Stack"},
 {"en","directory for Vanessa Stack"}
@@ -8524,7 +8528,7 @@ OXRY2/Q9VA4cVAtOvFjUjZ9jEFYQQNBmYA4Y1MRv9F3L790f++9XWfC2pXO2W84J
 },
 {7,3,0,1,100},
 {0,0,0},1,
-{1,1},0,1,0,0,0,3,3},1,
+{1,1},0,1,0,0,0,3,3},0,
 {"Pattern"},
 {"Pattern"},"","",
 {0},0,0,1,
@@ -8551,7 +8555,11 @@ OXRY2/Q9VA4cVAtOvFjUjZ9jEFYQQNBmYA4Y1MRv9F3L790f++9XWfC2pXO2W84J
 {1,
 {1,0},0},0,0,1,0,0,1,0,3,3},3,3},77ffcc29-7f2d-4223-b22f-19666e7250ba,
 {33,
-{364,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"VanessaStackCommons",1,0,
+{364,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},2,"VanessaStackCommons",1,0,
 {1,2,
 {"ru","Расширенные инструменты Vanessa Stack Commons"},
 {"en","path for extended Vanessa Satck Commons"}
@@ -8617,7 +8625,7 @@ OXRY2/Q9VA4cVAtOvFjUjZ9jEFYQQNBmYA4Y1MRv9F3L790f++9XWfC2pXO2W84J
 },
 {7,3,0,1,100},
 {0,0,0},1,
-{1,1},0,1,0,0,0,3,3},1,
+{1,1},0,1,0,0,0,3,3},0,
 {"Pattern"},
 {"Pattern"},"","",
 {0},0,0,1,
