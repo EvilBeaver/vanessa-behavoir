@@ -5,7 +5,8 @@
 813effc7-9383-4845-a4fa-2f5481e5a12b.0-->Form\Форма
 8a6e31ea-f13c-4c95-8d5e-d9639f345b83-->und\8a6e31ea-f13c-4c95-8d5e-d9639f345b83
 8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0-->und\8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0
-baaa3cdd-acc2-4c98-8ab3-94286ca266a3.0-->ObjectModule.bsl
+baaa3cdd-acc2-4c98-8ab3-94286ca266a3.0\info-->und\baaa3cdd-acc2-4c98-8ab3-94286ca266a3.0\info
+baaa3cdd-acc2-4c98-8ab3-94286ca266a3.0\text-->ObjectModule.bsl
 baaa3cdd-acc2-4c98-8ab3-94286ca266a3.1-->und\baaa3cdd-acc2-4c98-8ab3-94286ca266a3.1
 copyinfo-->und\copyinfo
 f8ab9b72-2202-4d81-a8c5-f1389f22100f-->und\f8ab9b72-2202-4d81-a8c5-f1389f22100f
