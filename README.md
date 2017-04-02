@@ -1,23 +1,27 @@
 ﻿# vanessa-behavior
 
-[![Открытый чат проекта https://gitter.im/silverbulleters/vanessa-behavoir](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/silverbulleters/vanessa-behavoir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Открытый чат проекта https://gitter.im/silverbulleters/vanessa-behavoir](https://badges.gitter.im/silverbulleters/vanessa-behavior.svg)](https://gitter.im/silverbulleters/vanessa-behavoir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](http://ci.silverbulleters.org/buildStatus/icon?job=Vanessa-Behavior-Develop)](http://ci.silverbulleters.org/job/Vanessa-Behavior-Develop/)
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/vanessa-services/localized.svg)](https://crowdin.com/project/vanessa-services)
 
 ## BDD for 1С:Enterprise
 
-Текущий релиз в ветке [Master: 1.0](https://github.com/silverbulleters/vanessa-behavior/tree/master)
+Текущий релиз в ветке [Master: 1.1.001](https://github.com/silverbulleters/vanessa-behavior/tree/master)
 Разработка ведется в ветке [Develop](https://github.com/silverbulleters/vanessa-behavior/tree/develop). Эта же ветка является основной.
 
 Проект использует принцип формирования автодокументации в формате Markdown и видео.
 * Markdown инструкции лежат [здесь](https://github.com/silverbulleters/vanessa-services/tree/master/ru-RU/behavior/Features) 
 * Видео инструкции лежат [здесь](https://www.youtube.com/channel/UC2mJ4LlMG-FF4qkc_kqN_iQ) 
 * Прочие инструкции сгруппированы [в этом плейлисте YouTube](https://www.youtube.com/playlist?list=PL2zlgf113YhFG_uRARjDtP1_Obj55UmY4) 
+* Также рекомендуется посмотреть вот [этот вебинар](http://infostart.ru/webinars/537546/) 
+* Возможно вам поможет [этот FAQ](https://github.com/silverbulleters/vanessa-behavior/blob/develop/F.A.Q.MD)
 
-Порядок установки под Windows:
+Чтобы у вас работало создание автовидеоинструкций необходимо установить дополнительный софт. Инструкция [здесь](https://github.com/silverbulleters/vanessa-behavior/blob/develop/MakeAutoVideo.md) 
+Также по автовидеоинструкциям есть вот это замечательное [видео](https://www.youtube.com/watch?v=BfXowJH5uP0)
 
-* [интерпретатор Python3](https://www.python.org/) - для работы с иходными файлами 1С с помощью проекта precommit1C на python версии
-* [утилита для сборки обработок 1С V8Unpack.exe](https://github.com/dmpas/v8unpack) - утилита должна быть доступной в переменной Path окружения Windows
+Порядок установки Vanessa-Behavior под Windows:
+
+* [интерпретатор 1Script](http://oscript.io/downloads) - для работы с иходными файлами 1С с помощью проекта precommit1C
 * [утилита для формирования отчётов о проверки Allure](http://allure.qatools.ru/)
 
 Все должно быть установлено так, чтобы быть доступным через переменную `%PATH%`
@@ -228,7 +232,12 @@ git submodule update --init --recursive
 * обучение навыкам написания на языке Gherkin
 * обучение навыкам написания сценариев проверки поведения
 
-для заказа платной поддержки необходимо отравить заявку на адрес education@silverbulleters.org или по телефону +7-(499)-346-70-19.
-
+для заказа платной поддержки необходимо отравить заявку на адрес education@silverbulleters.org 
+или 
+по телефону +7-(499)-346-70-19.
 
 [![ZenHub] (https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png)] (https://zenhub.io)
+
+Контура сборки предоставлены
+
+[![DOcean] (https://www.digitalocean.com/assets/media/logos-badges/png/DO_Logo_Horizontal_Blue-3db19536.png)](https://m.do.co/c/2a3a0769ac84)

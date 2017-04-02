@@ -1,5 +1,5 @@
-﻿# encoding: utf-8
-# language: ru
+﻿# language: ru
+@IgnoreOnCIMainBuild
 #Эти две строки (encoding) и (language) не являются обязательными
 
 #Далее идёт заголовок фичи

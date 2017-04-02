@@ -1,5 +1,4 @@
-﻿# encoding: utf-8
-# language: ru
+﻿# language: ru
 
 #https://github.com/silverbulleters/vanessa-behavior/issues/261
 
@@ -19,7 +18,7 @@
 		Когда Я открываю VanessaBehavior в режиме TestClient	
 		
 		И В поле с именем "КаталогФичСлужебный" я указываю путь к служебной фиче "ПолучениеСостоянияVanessaBehavior"
-		И я прервал в VanessaBehavoir в TestClient я нажал на кнопку "ВыполнитьСценарии"
+		И в VanessaBehavoir в TestClient я загружаю и выполняю сценарии
 				И В открытой форме я нажимаю на кнопку "Перезагрузить сценарии"
 				И Пауза 4
 				И В открытой форме я нажимаю на кнопку с заголовком "Выполнить сценарии"

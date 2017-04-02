@@ -350,6 +350,24 @@
 							<ContextMenu name="СоставнойРеквизитКонтекстноеМеню" id="148"/>
 							<ExtendedTooltip name="СоставнойРеквизитРасширеннаяПодсказка" id="149"/>
 						</InputField>
+						<InputField name="РеквизитМеню" id="150">
+							<DataPath>Объект.РеквизитМеню</DataPath>
+							<ChoiceButton>true</ChoiceButton>
+							<ContextMenu name="РеквизитМенюКонтекстноеМеню" id="151"/>
+							<ExtendedTooltip name="РеквизитМенюРасширеннаяПодсказка" id="152"/>
+							<Events>
+								<Event name="StartChoice">РеквизитМенюНачалоВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="РеквизитСписок" id="153">
+							<DataPath>Объект.РеквизитСписок</DataPath>
+							<ChoiceButton>true</ChoiceButton>
+							<ContextMenu name="РеквизитСписокКонтекстноеМеню" id="154"/>
+							<ExtendedTooltip name="РеквизитСписокРасширеннаяПодсказка" id="155"/>
+							<Events>
+								<Event name="StartChoice">РеквизитСписокНачалоВыбора</Event>
+							</Events>
+						</InputField>
 					</ChildItems>
 				</Page>
 				<Page name="Группа2" id="127">
@@ -394,6 +412,18 @@
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ЗаполнитьРекСтрока2РасширеннаяПодсказка" id="138"/>
+						</Button>
+						<Button name="ВывестиПредупреждение" id="156">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ВывестиПредупреждение</CommandName>
+							<Parameter xsi:nil="true"/>
+							<ExtendedTooltip name="ВывестиПредупреждениеРасширеннаяПодсказка" id="157"/>
+						</Button>
+						<Button name="ВвестиВНаименованиеИмяПользовтаеля" id="158">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ВвестиВНаименованиеИмяПользовтаеля</CommandName>
+							<Parameter xsi:nil="true"/>
+							<ExtendedTooltip name="ВвестиВНаименованиеИмяПользовтаеляРасширеннаяПодсказка" id="159"/>
 						</Button>
 					</ChildItems>
 				</Page>
@@ -486,6 +516,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаДляКомандногоИнтерфейса</Action>
+		</Command>
+		<Command name="ВывестиПредупреждение" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вывести предупреждение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вывести предупреждение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВывестиПредупреждение</Action>
+		</Command>
+		<Command name="ВвестиВНаименованиеИмяПользовтаеля" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ввести в наименование имя пользовтаеля</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ввести в наименование имя пользовтаеля</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВвестиВНаименованиеИмяПользовтаеля</Action>
 		</Command>
 	</Commands>
 	<CommandInterface>
